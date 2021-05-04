@@ -4,6 +4,17 @@ An enormous and ongoing project to zone as many maps as possible for Surftimer-O
 
 See an incorrect tier? Wrong Maxvelocity? Have you noticed a broken zone while using my tier/zone sql? Please contact me on discord Sayt#0621 or via email and let me know. This is an immense work in progress with multiple phases of completion. A lot of the workshop and miscellaneous maps were tiered based off personal “feel” after surfing and observing each map. Criticism and help in correcting information is always appreciated.
 
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------
+
 So… why? 
 Aren’t a ton of these maps pretty low quality? Isn’t this a lot of work?
 
