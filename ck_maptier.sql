@@ -636,7 +636,6 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_lullaby_ksf', 1, 3500, 1, 1, 1),
 ('surf_lullaby_redone_njv', 2, 3500, 0, 1, 1),
 ('surf_luminaris', 3, 3500, 0, 1, 1),
-('surf_luna', 2, 3500, 0, 1, 1),
 ('surf_lux', 1, 3500, 1, 1, 1),
 ('surf_mackful', 1, 3500, 0, 1, 1),
 ('surf_magma', 2, 3500, 0, 1, 1),
