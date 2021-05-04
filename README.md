@@ -10,8 +10,6 @@ Things to note:
 - There are still missing maps which, if you would be willing to help patch up any missing holes both in zones/tier as well as bsp files that would be appreciated
 - You should still personally verify any and all maps you add that are zoned
 - This project is what's in stage 1 of about 3 phases.
-- The maps will be uploaded eventually once I decide on what the best option to host them is, for map creators and server owners if I have any of your proprietary content that you do NOT want uploaded please feel free to contact me, I just want to preserve these maps and maintain a modern and singular location to get them.
-
 
 To use:
 If using PHPadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
