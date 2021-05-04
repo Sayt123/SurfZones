@@ -13,7 +13,7 @@ Things to note:
 - This project is what's in stage 1 of about 3 phases.
 
 To use:
-If using PHPadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
+If using PHPmyadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
 
 ------------------------------------------------------------------------
 
@@ -24,4 +24,4 @@ Why yes! Yes they are! And yes, yes it is! That’s why I hope you can understan
 
 My zoning methodology has always been edge zoning all platforms with just enough height the player cannot activate their timer with a jump, with all ending platforms zoned as high in the air as possible when appropriate. Unless a map is prohibitively short i.e. single ramp, or it would hinder a usable or non-exploitable skip - all linear maps will be getting checkpoints reasonably placed throughout, just because a map isn't the best quality doesn't mean I don't like seeing my time splits dang it. :v
 
-Anyways, thanks for reading this rambling if you did, I'm unsure what the goal of this project is bessides preserve all the things, zone the world.
+Anyways, thanks for reading this rambling if you did, I'm unsure what the goal of this project is besides preserve all the things, zone the world.
