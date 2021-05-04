@@ -1,5 +1,5 @@
 # SaytsSurfZones
-An enormous and ongoing project to zone as many maps as possible for Surftimer-Official, post-285. This is a personal project but I felt it would be worth sharing publically.
+An enormous and ongoing project to zone as many maps as possible for Surftimer-Official, post-285. This is a personal project but I felt it would be worth sharing publically. Due to discrepencies between the tier and zone file it is a little hard to pin down exacts, but there should be about 1170-1190 maps zoned and tiered.
 
 See an incorrect tier? Wrong Maxvelocity? Have you noticed a broken zone while using my tier/zone sql? Please contact me on discord Sayt#0621 or via email and let me know. This is an immense work in progress with multiple phases of completion. A lot of the workshop and miscellaneous maps were tiered based off personal “feel” after surfing and observing each map. Criticism and help in correcting information is always appreciated.
 
