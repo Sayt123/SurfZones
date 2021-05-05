@@ -73,6 +73,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_ameliorate', 1, 3500, 1, 1, 1),
 ('surf_amir', 2, 3500, 1, 1, 1),
 ('surf_amplitude_apex', 2, 3500, 1, 1, 1),
+('surf_amplitude_apex_njv', 3, 3500, 0, 1, 1),
 ('surf_amplitude_encore_nsf_v4', 3, 5000, 0, 1, 1),
 ('surf_amplitude_light', 2, 10000, 0, 1, 1),
 ('surf_android', 5, 3500, 0, 1, 1),
@@ -1201,7 +1202,6 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_zor', 2, 10000, 1, 1, 1),
 ('teast', 1, 3500, 0, 1, 1),
 ('wood_v2', 1, 3500, 0, 1, 1);
-
 
 --
 -- Indexes for table `ck_maptier`
