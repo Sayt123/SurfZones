@@ -2,7 +2,7 @@
 An enormous and ongoing project to zone as many maps as possible for Surftimer-Official, post-285. This is a personal project but I felt it would be worth sharing publically. Due to discrepencies between the tier and zone file it is a little hard to pin down exacts, but there should be about 1170-1190 maps zoned and tiered.
 HUGE THANKS TO THE ORIGINAL CREATORS OF THE BASE CK_ZONES.SQL FILE, this was used as a base to build THIS zones list upon.
 
-See an incorrect tier? Wrong Maxvelocity? Have you noticed a broken zone while using my tier/zone sql? Please contact me via email and let me know. This is an immense work in progress with multiple phases of completion. A lot of the workshop and miscellaneous maps were tiered based off personal “feel” after surfing and observing each map. Criticism and help in correcting information is always appreciated.
+See an incorrect tier? Wrong Maxvelocity? Have you noticed a broken zone while using my tier/zone sql? Please contact me via email and let me know @ sayts.archives@protonmail.com. This is an immense work in progress with multiple phases of completion. A lot of the workshop and miscellaneous maps were tiered based off personal “feel” after surfing and observing each map. Criticism and help in correcting information is always appreciated.
 
 Things to note:
 
@@ -10,7 +10,7 @@ Things to note:
 - There are a lot of miconfigured hookzones I still need to refix
 - There are still missing maps which, if you would be willing to help patch up any missing holes both in zones/tier as well as bsp files that would be appreciated
 - You should still personally verify any and all maps you add that are zoned
-- This project is what's in stage 1 of about 3 phases.
+- This project is slowly moving along with phase 2 of about 3 phases.
 
 To use:
 If using PHPmyadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
