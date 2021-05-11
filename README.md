@@ -1,6 +1,5 @@
 # SaytsSurfZones
 An enormous and ongoing project to zone as many maps as possible for Surftimer-Official, post-285. This is a personal project but I felt it would be worth sharing publically. Due to discrepencies between the tier and zone file it is a little hard to pin down exacts, but there should be about 1170-1190 maps zoned and tiered.
-HUGE THANKS TO THE ORIGINAL CREATORS OF THE BASE CK_ZONES.SQL FILE, this was used as a base to build THIS zones list upon.
 
 See an incorrect tier? Wrong Maxvelocity? Have you noticed a broken zone while using my tier/zone sql? Please contact me via email and let me know @ sayts.archives@protonmail.com. This is an immense work in progress with multiple phases of completion. A lot of the workshop and miscellaneous maps were tiered based off personal “feel” after surfing and observing each map. Criticism and help in correcting information is always appreciated.
 
@@ -25,3 +24,7 @@ Why yes! Yes they are! And yes, yes it is! That’s why I hope you can understan
 My zoning methodology has always been edge zoning all platforms with just enough height the player cannot activate their timer with a jump, with all ending platforms zoned as high in the air as possible when appropriate. Unless a map is prohibitively short i.e. single ramp, or it would hinder a usable or non-exploitable skip - all linear maps will be getting checkpoints reasonably placed throughout, just because a map isn't the best quality doesn't mean I don't like seeing my time splits dang it. :v
 
 Anyways, thanks for reading this rambling if you did, I'm unsure what the goal of this project is besides preserve all the things, zone the world.
+
+##Thanks to:
+Original creators of ck_zones and ck_maptiers base files, this was an immense help to the start of this project.
+Kotton for donating his zones and tier list which has been merged as of 5/11/21.
