@@ -1,5 +1,5 @@
 # SaytsSurfZones
-An enormous and ongoing project to zone as many maps as possible for Surftimer-Official, post-285. This is a personal project but I felt it would be worth sharing publically. Due to discrepencies between the tier and zone file it is a little hard to pin down exacts, but there should be about 1170-1190 maps zoned and tiered.
+An enormous and ongoing project to zone as many maps as possible for Surftimer-Official, post-285. This is a personal project but I felt it would be worth sharing publically. Due to discrepencies between the tier and zone file it is a little hard to pin down exacts, but there should be about 1250-1350 maps zoned and tiered. Duplicate maps containing a - or _ at the end of the file name may be removed for a single version of each map/to remove needless clutter.
 
 See an incorrect tier? Wrong Maxvelocity? Have you noticed a broken zone while using my tier/zone sql? Please contact me via email and let me know @ sayts.archives@protonmail.com. This is an immense work in progress with multiple phases of completion. A lot of the workshop and miscellaneous maps were tiered based off personal “feel” after surfing and observing each map. Criticism and help in correcting information is always appreciated.
 
@@ -7,9 +7,10 @@ Things to note:
 
 - I still need to manually go back through every map and confirm zones are finalized the way I'd like
 - There are a lot of miconfigured hookzones I still need to refix
+- Duplicate maps will gradually be filtered out
 - There are still missing maps which, if you would be willing to help patch up any missing holes both in zones/tier as well as bsp files that would be appreciated
 - You should still personally verify any and all maps you add that are zoned
-- This project is slowly moving along with phase 2 of about 3 phases.
+- This project is slowly moving along with phase 2 of about 3 phases
 
 To use:
 If using PHPmyadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
@@ -25,6 +26,6 @@ My zoning methodology has always been edge zoning all platforms with just enough
 
 Anyways, thanks for reading this rambling if you did, I'm unsure what the goal of this project is besides preserve all the things, zone the world.
 
-##Thanks to:
+Thanks to:
 Original creators of ck_zones and ck_maptiers base files, this was an immense help to the start of this project.
 Kotton for donating his zones and tier list which has been merged as of 5/11/21.
