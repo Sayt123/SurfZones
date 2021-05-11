@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS `ck_maptier`;
 CREATE TABLE `ck_maptier` (
   `mapname` varchar(54) NOT NULL,
   `tier` int(12) NOT NULL,
