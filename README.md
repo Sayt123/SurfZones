@@ -10,11 +10,8 @@ Things to note:
 - Duplicate maps will gradually be filtered out
 - There are still missing maps which, if you would be willing to help patch up any missing holes both in zones/tier as well as bsp files that would be appreciated
 - You should still personally verify any and all maps you add that are zoned
-<<<<<<< HEAD
 - This project is slowly moving along with phase 2 of about 3 phases, in tandem with my image project here https://github.com/Sayt123/SurfMapPics
-=======
-- This project is slowly moving along with phase 2 of about 3 phases
->>>>>>> 254edbc88c2d8ade0211f2135cf5e976ba50983f
+
 
 To use:
 If using PHPmyadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
@@ -30,12 +27,8 @@ My zoning methodology has always been edge zoning all platforms with just enough
 
 Anyways, thanks for reading this rambling if you did, I'm unsure what the goal of this project is besides preserve all the things, zone the world.
 
-<<<<<<< HEAD
-##Thanks to:
-
-
-=======
 Thanks to:
->>>>>>> 254edbc88c2d8ade0211f2135cf5e976ba50983f
+
+
 Original creators of ck_zones and ck_maptiers base files, this was an immense help to the start of this project.
 Kotton for donating his zones and tier list which has been merged as of 5/11/21.
