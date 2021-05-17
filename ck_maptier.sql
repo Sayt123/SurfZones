@@ -264,9 +264,12 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_compact', 4, 3500, 1, 1, 1),
 ('surf_compulsive_hard', 4, 3500, 0, 1, 1),
 ('surf_compulsive_njv', 3, 3500, 1, 1, 1),
+('surf_compulsive_njv_fix', 3, 3500, 0, 1, 1),
 ('surf_concept', 3, 3500, 1, 1, 1),
 ('surf_concept_njv', 3, 3500, 0, 0, 1),
 ('surf_concreteideas', 2, 3500, 1, 1, 1),
+('surf_concretejungle', 4, 3500, 0, 1, 1),
+('surf_concretejungle_fix', 4, 3500, 0, 1, 1),
 ('surf_conserve', 5, 3500, 1, 1, 1),
 ('surf_construction', 4, 3500, 1, 1, 1),
 ('surf_cookiejar', 3, 3500, 1, 1, 1),
@@ -317,6 +320,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_deroland_neon_final', 3, 3500, 0, 1, 1),
 ('surf_derpis_h_fix', 4, 3500, 0, 1, 1),
 ('surf_derpis_ksf', 1, 3500, 1, 1, 1),
+('surf_derp_b4', 3, 3500, 0, 1, 1),
 ('surf_deserted_njv', 3, 3500, 0, 1, 1),
 ('surf_desert_final', 3, 3500, 0, 1, 1),
 ('surf_desolate', 4, 3500, 1, 1, 1),
@@ -1389,13 +1393,13 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_zbig2', 4, 3500, 1, 1, 1),
 ('surf_zbig_rc2', 2, 3500, 1, 1, 1),
 ('surf_zealand', 2, 3500, 1, 1, 1),
-('surf_zen', 6, 3500, 0, 1, 1),
+('surf_zen', 6, 3500, 0, 1, 1);
+INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `gravityfix`, `ranked`) VALUES
 ('surf_zen2', 6, 3500, 1, 1, 1),
 ('surf_zen_fix', 6, 3500, 1, 1, 1),
 ('surf_zeonine', 5, 3500, 1, 1, 1),
 ('surf_zeonine_fix', 4, 3500, 0, 1, 1),
-('surf_zion', 3, 3500, 1, 1, 1);
-INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `gravityfix`, `ranked`) VALUES
+('surf_zion', 3, 3500, 1, 1, 1),
 ('surf_zion_njv', 3, 3500, 0, 1, 1),
 ('surf_zlash', 1, 3500, 0, 1, 1),
 ('surf_zoomathon', 1, 3500, 0, 1, 1),
