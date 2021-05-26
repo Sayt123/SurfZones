@@ -1342,7 +1342,6 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_unraveled', 3, 3500, 0, 1, 1),
 ('surf_unreal2', 5, 3500, 1, 1, 1),
 ('surf_unreal_njv', 5, 3500, 1, 1, 1),
-INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `gravityfix`, `ranked`) VALUES
 ('surf_unusualv1', 2, 3500, 0, 1, 1),
 ('surf_unusual_njv', 5, 3500, 1, 1, 1),
 ('surf_urban', 4, 3500, 0, 1, 1),
