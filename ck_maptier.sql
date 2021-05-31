@@ -273,7 +273,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_core_fix', 5, 3500, 1, 1, 1),
 ('surf_corner', 2, 3500, 1, 1, 1),
 ('surf_corporal', 1, 3500, 0, 1, 1),
-('surf_corruption', 8, 10000, 1, 1, 1),
+('surf_corruption', 8, 3500, 1, 1, 1),
 ('surf_cosmic', 3, 3500, 0, 1, 1),
 ('surf_cosmo', 3, 3500, 0, 1, 1),
 ('surf_crackdesert', 2, 3500, 0, 1, 1),
@@ -982,6 +982,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_platinum', 1, 3500, 0, 1, 1),
 ('surf_plethora_fix', 3, 3500, 0, 1, 1),
 ('surf_pls', 6, 3500, 1, 1, 1),
+('surf_pocari', 1, 3500, 0, 1, 1),
 ('surf_pogomogo_b3', 3, 3500, 0, 1, 1),
 ('surf_poke_b9', 2, 3500, 0, 1, 1),
 ('surf_polonia', 5, 3500, 0, 1, 1),
@@ -1390,7 +1391,8 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_wizard', 3, 3500, 1, 1, 1),
 ('surf_woo', 1, 3500, 0, 1, 1),
 ('surf_wood', 2, 3500, 1, 1, 1),
-('surf_woodspec', 1, 3500, 0, 1, 1),
+('surf_woodspec', 1, 3500, 0, 1, 1);
+INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `gravityfix`, `ranked`) VALUES
 ('surf_wood_fix', 1, 3500, 0, 1, 1),
 ('surf_x', 4, 3500, 0, 1, 1),
 ('surf_x2_beta07', 4, 3500, 0, 1, 1),
