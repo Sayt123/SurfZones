@@ -273,7 +273,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_core_fix', 5, 3500, 1, 1, 1),
 ('surf_corner', 2, 3500, 1, 1, 1),
 ('surf_corporal', 1, 3500, 0, 1, 1),
-('surf_corruption', 8, 3500, 1, 1, 1),
+('surf_corruption', 8, 10000, 1, 1, 1),
 ('surf_cosmic', 3, 3500, 0, 1, 1),
 ('surf_cosmo', 3, 3500, 0, 1, 1),
 ('surf_crackdesert', 2, 3500, 0, 1, 1),
