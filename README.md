@@ -8,6 +8,8 @@ See an incorrect tier? Wrong Maxvelocity? Have you noticed a broken zone while u
 To use:
 If using PHPmyadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
 
+Here's a link to my personal backup of [maps](https://mega.nz/folder/5DARSS7D#eJIlC0KQVX7-S8aPDp29QQ) for my personal server. Mileage may very, they work on my setup. If you have issues loading them that's on you to resolve unfortunately. 
+
 ------------------------------------------------------------------------
 Thanks to:
 
