@@ -668,6 +668,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_journeys_b1', 2, 3500, 0, 0, 1),
 ('surf_journeys_final', 2, 3500, 1, 1, 1),
 ('surf_jumble', 6, 3500, 1, 1, 1),
+('surf_jump', 1, 3500, 1, 1, 1),
 ('surf_junglespic_ksf', 4, 3500, 1, 1, 1),
 ('surf_jusched', 6, 3500, 1, 1, 1),
 ('surf_juturna', 2, 3500, 1, 1, 1),
