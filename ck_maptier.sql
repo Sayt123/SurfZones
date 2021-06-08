@@ -1190,6 +1190,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_skill8_m', 4, 3500, 0, 0, 1),
 ('surf_skipalot', 2, 3500, 1, 1, 1),
 ('surf_skyborn', 2, 3500, 1, 1, 1),
+('surf_skyfall_final', 4, 3500, 0, 1, 1),
 ('surf_skyscrapers', 1, 3500, 0, 1, 1),
 ('surf_sky_ages', 3, 3500, 1, 1, 1),
 ('surf_slob', 2, 3500, 0, 1, 1),
