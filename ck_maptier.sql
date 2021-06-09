@@ -16,6 +16,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('ld_surf', 2, 3500, 0, 1, 1),
 ('lolz', 1, 3500, 0, 1, 1),
 ('newmap', 1, 3500, 0, 1, 1),
+('polygonal', 2, 3500, 0, 1, 1),
 ('project_z', 1, 3500, 0, 1, 1),
 ('sunsandnocollision4', 1, 3500, 0, 1, 1),
 ('surf', 1, 3500, 0, 1, 1),
@@ -1391,10 +1392,10 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_whoknows2', 4, 5000, 1, 1, 1),
 ('surf_whoknows3', 4, 5000, 1, 1, 1),
 ('surf_whynot', 6, 3500, 1, 1, 1),
-('surf_willy1', 1, 3500, 0, 1, 1),
-('surf_windrunner_final', 1, 3500, 0, 1, 1),
-('surf_wisdom', 3, 3500, 0, 1, 1);
+('surf_willy1', 1, 3500, 0, 1, 1);
 INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `gravityfix`, `ranked`) VALUES
+('surf_windrunner_final', 1, 3500, 0, 1, 1),
+('surf_wisdom', 3, 3500, 0, 1, 1),
 ('surf_wizard', 3, 3500, 1, 1, 1),
 ('surf_woo', 1, 3500, 0, 1, 1),
 ('surf_wood', 2, 3500, 1, 1, 1),
