@@ -415,6 +415,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_exclave', 4, 3500, 0, 1, 1),
 ('surf_execute', 3, 3500, 1, 1, 1),
 ('surf_exile_njv', 6, 3500, 1, 1, 1),
+('surf_exland', 3, 3500, 0, 1, 1),
 ('surf_exocube', 2, 3500, 1, 1, 1),
 ('surf_exocube_e', 2, 3500, 0, 0, 1),
 ('surf_exocube_h', 5, 3500, 1, 1, 1),
@@ -1391,9 +1392,9 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_whoknows', 4, 3500, 1, 1, 1),
 ('surf_whoknows2', 4, 5000, 1, 1, 1),
 ('surf_whoknows3', 4, 5000, 1, 1, 1),
-('surf_whynot', 6, 3500, 1, 1, 1),
-('surf_willy1', 1, 3500, 0, 1, 1);
+('surf_whynot', 6, 3500, 1, 1, 1);
 INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `gravityfix`, `ranked`) VALUES
+('surf_willy1', 1, 3500, 0, 1, 1),
 ('surf_windrunner_final', 1, 3500, 0, 1, 1),
 ('surf_wisdom', 3, 3500, 0, 1, 1),
 ('surf_wizard', 3, 3500, 1, 1, 1),
