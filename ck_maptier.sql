@@ -1128,6 +1128,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_savant_njv', 4, 3500, 1, 1, 1),
 ('surf_saya', 2, 3500, 0, 1, 1),
 ('surf_school_kzg', 1, 3500, 1, 1, 1),
+('surf_scientist', 3, 3500, 0, 1, 1),
 ('surf_sci_fi', 3, 3500, 0, 1, 1),
 ('surf_scorch_go', 2, 3500, 1, 1, 1),
 ('surf_scrub', 2, 3500, 0, 1, 1),
@@ -1391,9 +1392,9 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_whiteout_csgo_v1', 2, 3500, 0, 0, 1),
 ('surf_whoknows', 4, 3500, 1, 1, 1),
 ('surf_whoknows2', 4, 5000, 1, 1, 1),
-('surf_whoknows3', 4, 5000, 1, 1, 1),
-('surf_whynot', 6, 3500, 1, 1, 1);
+('surf_whoknows3', 4, 5000, 1, 1, 1);
 INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `gravityfix`, `ranked`) VALUES
+('surf_whynot', 6, 3500, 1, 1, 1),
 ('surf_willy1', 1, 3500, 0, 1, 1),
 ('surf_windrunner_final', 1, 3500, 0, 1, 1),
 ('surf_wisdom', 3, 3500, 0, 1, 1),
