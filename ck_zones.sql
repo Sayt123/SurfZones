@@ -2774,7 +2774,17 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_da_whoop', 5, 4, 0, 3520.28, -4992.03, 9678.75, 3997.9, -6271.97, 4626.3, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_da_whoop', 6, 4, 1, 134.476, 3324.03, 5955.06, -121.83, 3403.22, 5776.03, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_da_whoop', 7, 4, 2, -383.969, 5382.99, -0.937591, 383.969, 5617.63, -8554.65, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
-('surf_deathstar', 0, 1, 0, -8704.13, -128.12, 9936.08, -9447.26, -383.633, 9792.03, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
+('surf_deadline', 0, 1, 0, -8769, -257, 1919, -8383, 257, 2177, 0, 0, 0, 'Start 0', 'map_startzone', 'player', 1, 350),
+('surf_deadline', 1, 3, 0, -9105, -257, -6289, -8751, 257, -6031, 0, 0, 0, 'Start 0', 'stage2_startzone', 'player', 1, 350),
+('surf_deadline', 2, 3, 1, -9073, -521, -9985, -8719, 521, -9791, 0, 0, 0, 'Start 0', 'stage3_startzone', 'player', 1, 350),
+('surf_deadline', 3, 3, 2, 135, 223, 11551, 489, 737, 11809, 0, 0, 0, 'Start 0', 's4_startzone', 'player', 1, 350),
+('surf_deadline', 4, 2, 0, 10433, -145, 8695, 11337, 1865, 9697, 0, 0, 0, 'Start 0', 'map_endzone', 'player', 1, 350),
+('surf_deadline', 5, 1, 1, -10313, -14337, 14019, -9871, -13887, 14213, 0, 0, 1, 'bonus 1', 'bonus1_startzone', 'player', 1, 350),
+('surf_deadline', 6, 2, 1, -3951, -14593, 12419, -3423, -13631, 12949, 0, 0, 1, 'bonus 1', 'bonus1_endzone', 'player', 1, 350),
+('surf_deadline', 7, 1, 1, -9713, -5785, 13535, -8687, -5247, 13825, 0, 0, 2, 'bonus 2', 'bonus2_startzone', 'player', 1, 350),
+('surf_deadline', 8, 2, 1, -11183, -10551, 14751, -10033, -8889, 15073, 0, 0, 2, 'bonus 2', 'bonus2_endzone', 'player', 1, 350),
+('surf_deathstar', 0, 1, 0, -8704.13, -128.12, 9936.08, -9447.26, -383.633, 9792.03, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_deathstar', 1, 3, 0, -4681.07, -118.078, 9024.03, -5567.97, -399.173, 9201.89, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
 ('surf_deathstar', 2, 3, 1, -1469.54, -112.031, 8256.93, -576.031, -396.385, 8441.77, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
 ('surf_deathstar', 3, 3, 2, -580.377, -397.317, 6016.03, -1471.97, -120.38, 6197.44, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
@@ -2783,8 +2793,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_deathstar', 6, 2, 0, -8193.04, -429.189, -4767.97, -8447.97, -81.2512, -4573.31, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_death_of_a_martian', 0, 1, 0, -255.879, -159.849, 165.031, 255.758, 127.722, 64.0312, 0, 0, 0, 'Start 0', 'zone_s1', 'player', 0, 260),
 ('surf_death_of_a_martian', 1, 3, 0, 1791, -4385, 2111, 2305, -3999, 2369, 0, 0, 0, 'Start 0', 'zone_s2', 'player', 0, 260),
-('surf_death_of_a_martian', 2, 3, 1, 4863, -3841, -3457, 5377, -3455, -3199, 0, 0, 0, 'Start 0', 'zone_s3', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_death_of_a_martian', 2, 3, 1, 4863, -3841, -3457, 5377, -3455, -3199, 0, 0, 0, 'Start 0', 'zone_s3', 'player', 0, 260),
 ('surf_death_of_a_martian', 3, 3, 2, 7935, -1345, -6033, 8449, -959, -5887, 0, 0, 0, 'Start 0', 'zone_s4', 'player', 0, 260),
 ('surf_death_of_a_martian', 4, 3, 3, -6401, -7553, -257, -5887, -7167, 1, 0, 0, 0, 'Start 0', 'zone_s5', 'player', 0, 260),
 ('surf_death_of_a_martian', 5, 2, 0, -6401, 2463, -3041, -5887, 2817, -2783, 0, 0, 0, 'Start 0', 'zone_send', 'player', 0, 260),
@@ -3165,7 +3174,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_dova', 2, 1, 1, -1763.29, 12016.3, 7312.03, -4002.48, 12379, 7480.42, 0, 0, 1, 'bonus 1', 'b1_start', 'player', 0, 260),
 ('surf_dova', 6, 4, 0, 3294.43, -7692.97, 3402.05, 3393.32, -4305.03, 2939.03, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_dova', 1, 2, 0, -2344.89, 14192.5, -2685.97, -2791.31, 15856, -1823.25, 0, 0, 0, 'Start 0', 'map_end', 'player', 0, 260),
-('surf_dova', 0, 1, 0, 10414.3, -4077.26, 5670.03, 10996.8, -7916.97, 5842.5, 0, 0, 0, 'Start 0', 'map_start', 'player', 0, 260),
+('surf_dova', 0, 1, 0, 10414.3, -4077.26, 5670.03, 10996.8, -7916.97, 5842.5, 0, 0, 0, 'Start 0', 'map_start', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_dova', 8, 4, 2, -8288.9, -5245.03, -3989.14, -7805.58, -6823.29, -5459.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_dova', 9, 4, 3, -1580.97, 2059.72, -3579.32, 146.969, 1751.36, -4498.55, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_dragon', 5, 4, 1, -9875.52, -3671.09, -1943.13, -11640.1, -1920.03, -1787.26, 0, 0, 0, 'START 0', 'None', 'player', 0, 260),
@@ -3174,8 +3184,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_dragon', 2, 1, 0, -7826.05, 5496.95, 14880, -8094.83, 5785.13, 15012.7, 0, 0, 1, 'BONUS 1', 'None', 'player', 0, 260),
 ('surf_dragon', 1, 2, 0, -10372.6, 257.223, -8319.97, -11127.9, 927.969, -5316.52, 0, 0, 0, 'START 0', 'None', 'player', 0, 260),
 ('surf_dragon', 0, 1, 0, -10564.6, -13563.5, 6860.95, -10933.3, -13039.8, 6528.03, 0, 0, 0, 'START 0', 'None', 'player', 0, 260),
-('surf_drain', 3, 4, 0, 1537.11, -954.144, -2296.26, 1531.51, -524.03, -1179.67, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_drain', 3, 4, 0, 1537.11, -954.144, -2296.26, 1531.51, -524.03, -1179.67, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_drain', 4, 4, 1, 3818.97, -485.576, -3811.05, 3824.03, -946.58, -3411.93, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_drain', 5, 4, 2, 4352.3, -10065.5, -4687.97, 4799.55, -10084.6, -4352.03, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_drain', 0, 1, 0, -960.265, 128.214, 419.031, -1151.97, 447.871, 320.031, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -3562,7 +3571,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_endurci', 3, 3, 2, -1935.62, 291.676, -2607.97, -1360.03, -219.233, -2487.61, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_endurci', 2, 3, 1, -9793.8, -500.24, 3172.03, -9214.03, -1010.88, 3271.95, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_endurci', 9, 2, 0, 15297.8, 2011.84, -4006.14, 15801.1, -1982.97, -3745.66, 0, 0, 2, 'bonus 2', 'None', 'player', 1, 250),
-('surf_endurci', 8, 1, 0, 10140.7, -754.969, 7949.15, 10918.5, 616.955, 8039.8, 0, 0, 2, 'bonus 2', 'None', 'player', 1, 250),
+('surf_endurci', 8, 1, 0, 10140.7, -754.969, 7949.15, 10918.5, 616.955, 8039.8, 0, 0, 2, 'bonus 2', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_endurci', 7, 2, 0, 1642, -253.901, 10654.3, 526.031, 230.723, 11581.8, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_endurci', 6, 1, 0, 9720.13, -253.86, 11414, 10296, 257.004, 11522.5, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_endurci', 5, 2, 0, -10474, -265.857, -13168.9, -11305.1, 245.803, -12940, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -3571,8 +3581,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_endurci', 4, 3, 3, -4257.77, -265.833, -10162, -3682.03, 243.969, -10045.2, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_enlightened', 22, 2, 0, -15296.5, 13664.5, -4415.97, -16192, 14431, -3970.99, 0, 0, 8, 'bonus 8', 'None', 'player', 1, 250),
 ('surf_enlightened', 21, 1, 0, -15296.1, 12640.1, -3327.97, -16192, 15456.3, -3131.85, 0, 0, 8, 'bonus 8', 'None', 'player', 1, 250),
-('surf_enlightened', 19, 2, 0, -9279.47, 12160.1, 13888, -6721.64, 13214.3, 15648, 0, 0, 7, 'bonus 7', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_enlightened', 19, 2, 0, -9279.47, 12160.1, 13888, -6721.64, 13214.3, 15648, 0, 0, 7, 'bonus 7', 'None', 'player', 1, 250),
 ('surf_enlightened', 16, 2, 0, 15792, 7791.77, -2319.96, 14288.9, 7281.33, -1808.03, 0, 0, 6, 'bonus 6', 'None', 'player', 1, 250),
 ('surf_enlightened', 15, 1, 0, 3055.88, 3087.53, -1615.97, 2544.03, 2064.87, -1474.54, 0, 0, 6, 'bonus 6', 'None', 'player', 1, 250),
 ('surf_enlightened', 4, 2, 0, -13280.1, -11391.9, -11376, -13929, -8256.03, -9412.25, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -3960,7 +3969,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_fade', 0, 1, 0, -12608, 543.361, 924.47, -11972.3, 327.157, 832.031, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_fade', 9, 3, 3, -10080.8, -1887.04, 5776.03, -10591.2, -1632.03, 5908.63, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_faint', 7, 2, 2, 1175.12, -283.101, -9897.97, 1918.97, -1063.21, -9130.15, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_faint', 4, 4, 2, -6276.04, 1232.97, -5136.11, -7458.4, -190.969, -5154.17, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_faint', 4, 4, 2, -6276.04, 1232.97, -5136.11, -7458.4, -190.969, -5154.17, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_faint', 6, 2, 1, 1174.64, 540.946, -9897.97, 488.776, -1066.97, -9130.93, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_faint', 3, 4, 1, 15316, 928.776, -8832.83, 14564, 177.28, -8821.58, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_faint', 1, 2, 1, 1918.29, 541.445, -9897.97, 491.243, 1324.97, -9130.44, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
@@ -3969,8 +3979,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_faint', 5, 4, 3, 4879.64, 23.4253, -10655, 4870.25, 234.969, -10395.1, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_faint_fix', 8, 4, 4, 5511.22, 24.3985, -9657.97, 5045.22, 234.969, -10454.9, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_faint_fix', 9, 4, 5, 3037.45, -257.071, -10982, 2419.22, 515.922, -11711, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
-('surf_faint_fix', 17, 2, 0, 2753.34, 4254.09, 3264.03, 698.512, 4070.99, 3487.97, 0, 0, 2, 'BONUS 2', 'None', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_faint_fix', 17, 2, 0, 2753.34, 4254.09, 3264.03, 698.512, 4070.99, 3487.97, 0, 0, 2, 'BONUS 2', 'None', 'player', 0, 260),
 ('surf_faint_fix', 16, 1, 0, 1535.58, 5471.84, 5958.73, 1919.85, 5088.15, 5888.73, 0, 0, 2, 'BONUS 2', 'None', 'player', 0, 260),
 ('surf_faint_fix', 15, 2, 0, 9187.97, -5036.95, -6152.68, 9158.97, -5168.68, -6296.29, 0, 0, 1, 'BONUS 1', 'None', 'player', 0, 260),
 ('surf_faint_fix', 14, 1, 0, 9942.12, -5406.97, -4120.97, 10145.9, -4831.04, -4030.97, 0, 0, 1, 'BONUS 1', 'None', 'player', 0, 260),
@@ -4350,7 +4359,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_for_noob', 3, 3, 1, -15502.5, 15710.1, 10752, -15678, 16188.5, 10957.1, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_for_noob', 1, 3, 0, -16262.3, 15797.6, 9328.03, -16316.9, 15582, 9415.43, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_for_noob', 2, 2, 0, -9853.47, 12158, -488.191, -9470.03, 11776, -549.492, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_four_elements', 2, 3, 1, -12976, -2576.11, 4485.03, -13647.8, -3391.93, 4400.03, 0, 0, 0, 'Start 0', 'sm_ckZoneHooked 1', 'player', 1, 350),
+('surf_four_elements', 2, 3, 1, -12976, -2576.11, 4485.03, -13647.8, -3391.93, 4400.03, 0, 0, 0, 'Start 0', 'sm_ckZoneHooked 1', 'player', 1, 350);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_four_elements', 5, 6, 0, -12016.6, -14607.7, 15584, -12520.3, -14481.8, 15824, 0, 0, 0, 'Start 0', 'None', 'player', 0, 450),
 ('surf_four_elements', 4, 2, 0, 8430.16, -3078.93, -5483.95, 6254.88, -5263.34, -6007.87, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_four_elements', 1, 3, 0, -1591, -13023, 5840, -1481, -12913, 5954, 0, 0, 0, 'Start 0', 'sm_ckZoneHooked 0', 'player', 1, 350),
@@ -4359,8 +4369,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_freaky', 0, 1, 1, -2217.04, -3460.36, 2355.41, -2669.79, -3766, 2448.87, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_freaky', 1, 3, 3, -5160.88, 4007.16, 2877.53, -4800.54, 3642.96, 2979.53, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_freaky', 2, 3, 2, -3758, 4634.61, 10173.5, -3038.03, 5262.97, 10275.5, 0, 0, 0, '', 'None', 'player', 0, 260),
-('surf_freaky', 3, 3, 1, -2348.64, -1394.06, 6769.49, -2568.83, -1168.12, 6871.49, 0, 0, 0, '', 'None', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_freaky', 3, 3, 1, -2348.64, -1394.06, 6769.49, -2568.83, -1168.12, 6871.49, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_freaky', 4, 3, 0, -2349.88, 5849.92, 7741.53, -2562.21, 5977.9, 7843.53, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_freaky', 5, 3, 4, 4149.02, -229.511, 2942.53, 4616.97, -322.381, 3076.53, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_freaky_njv', 0, 3, 4, 4608.97, -301.969, 2944.53, 4399.74, -249.492, 3044.53, 0, 0, 0, '', 'None', 'player', 0, 260),
@@ -4745,7 +4754,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_germania', 0, 1, 0, -15841, 8095, 351, -14367, 8993, 737, 0, 0, 0, 'Start 0', 'zone_stage_sacred_start', 'player', 0, 260),
 ('surf_germania', 1, 3, 0, -12993, -4417, -449, -11967, -1727, 1, 0, 0, 0, 'Start 0', 'zone_stage_wayne_start', 'player', 0, 260),
 ('surf_germania', 5, 2, 0, 12175, 527, 12927, 14193, 2561, 13185, 0, 0, 0, 'Start 0', 'zone_map_end', 'player', 0, 260),
-('surf_germania', 9, 2, 1, -15873, 13087, 4831, -15647, 15809, 5281, 0, 0, 2, 'bonus 2', 'zone_b2_end', 'player', 0, 260),
+('surf_germania', 9, 2, 1, -15873, 13087, 4831, -15647, 15809, 5281, 0, 0, 2, 'bonus 2', 'zone_b2_end', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_germania', 8, 1, 1, -12897, 11455, 10431, -12479, 11841, 10593, 0, 0, 2, 'bonus 2', 'zone_b2_start', 'player', 0, 260),
 ('surf_germania', 7, 2, 1, 3007, -10305, -6145, 3833, -8127, -5727, 0, 0, 1, 'bonus 1', 'zone_b1_end', 'player', 0, 260),
 ('surf_germania', 6, 1, 1, -15873, -9985, -4065, -15359, -8447, -3551, 0, 0, 1, 'bonus 1', 'zone_b1_start', 'player', 0, 260),
@@ -4753,8 +4763,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_gettingharder', 3, 3, 11, 1279.57, 15936.3, 3520.03, 512.051, 16126.3, 3583.9, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_gettingharder', 7, 3, 15, 6911.6, 15936.4, 3520.03, 6144.03, 16125.8, 3584.31, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_gettingharder', 10, 3, 16, 8191.97, 15936.6, 3520.12, 7424.03, 16125.8, 3583.27, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
-('surf_gettingharder', 18, 3, 17, 9471.88, 15936.1, 3520.03, 8704.03, 16125.7, 3582.63, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_gettingharder', 18, 3, 17, 9471.88, 15936.1, 3520.03, 8704.03, 16125.7, 3582.63, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_gettingharder', 19, 3, 18, 10751.7, 15936.3, 3520.03, 9984.03, 16125.7, 3583.91, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_gettingharder', 17, 3, 5, -6400.28, 15936.4, 3520.03, -7167.97, 16126.1, 3584.18, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_gettingharder', 9, 3, 6, -5871.97, 16112, 3518.03, -5136.03, 15934.9, 3620.03, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
@@ -5144,7 +5153,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_gurus_njv', 4, 3, 0, 20.7749, 2115.01, 1983.03, -552.969, 2563.3, 2162.4, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_gurus_njv', 5, 1, 1, 3345.97, 785.969, -1.96875, 2784.48, 374.233, 95.0376, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_gurus_njv', 6, 3, 3, 3349.21, 9911.97, 7243.41, 3857.57, 8888.85, 6748.03, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
-('surf_gurus_njv', 7, 3, 5, 1921.68, -2687.37, -2193.03, 1199.03, -1876.26, -2503.72, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
+('surf_gurus_njv', 7, 3, 5, 1921.68, -2687.37, -2193.03, 1199.03, -1876.26, -2503.72, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_gurus_njv', 8, 6, 8, 391.662, -2715.97, 112.161, -1843.79, -116.031, -738.064, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_gurus_njv', 9, 2, 1, 8925.53, -1957.61, -4016.97, 9198.97, -2696.25, -3732.94, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_hades', 0, 1, 0, 1536.58, -543.469, 1055.74, -515.205, -32.0312, 2069.31, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
@@ -5152,8 +5162,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_hades', 2, 3, 1, -5663.57, -463.613, -1935.97, -3614.5, 47.9689, -915.514, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_hades', 3, 3, 2, -5840.77, 1904.26, -2287.97, -6223.97, 4971.78, -1780.04, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_hades', 4, 3, 3, 9024.03, -862.724, 6272.23, 10494.9, -419.683, 6879.97, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
-('surf_hades', 5, 3, 4, -10671.4, 6864.81, 7744.03, -7604.61, 7371.8, 8415.97, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_hades', 5, 3, 4, -10671.4, 6864.81, 7744.03, -7604.61, 7371.8, 8415.97, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_hades', 6, 3, 5, -13424.3, 7152.03, 2224.28, -13805.6, 10219.4, 2735.97, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_hades', 7, 2, 0, -4671.97, 8031.04, -1549.24, -4228.49, 9308.63, -1743.97, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_hades', 8, 1, 0, 12320.7, -160.668, 9308.03, 15391.2, -703.182, 9008.03, 0, 0, 1, 'BONUS 1', 'None', 'player', 0, 260),
@@ -5540,7 +5549,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_hope', 3, 2, 0, 11232.1, 11648, -7679.97, 13326.9, 8416.73, -5676.47, 0, 0, 0, 'Start 0', 'stage3_end', 'player', 0, 260),
 ('surf_hope', 4, 1, 1, 5087, -9665, 6047, 6241, -9151, 6561, 0, 0, 1, 'bonus 1', 'bonus1_start', 'player', 0, 260),
 ('surf_hope', 5, 2, 1, 4063, -2753, -2209, 6113, -2079, -1535, 0, 0, 1, 'bonus 1', 'bonus1_end', 'player', 0, 260),
-('surf_hopi_caged_v1', 0, 1, 0, -319.969, 255.981, -127.968, 319.064, -255.969, -4.09788, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_hopi_caged_v1', 0, 1, 0, -319.969, 255.981, -127.968, 319.064, -255.969, -4.09788, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_hopi_caged_v1', 1, 3, 0, -767.638, -4223.79, -1663.97, 766.445, -2816.03, -1161.85, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_hopi_caged_v1', 2, 3, 1, -4095.51, 2816.26, 1280.03, -3073.61, 3071.97, 1408.4, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_hopi_caged_v1', 3, 3, 2, 3841.22, -10240, 1153.32, 4092.67, -9728.03, 1256.31, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -5548,8 +5558,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_hopi_caged_v1', 5, 2, 0, -127.808, -384.071, 264.031, 127.969, -502.782, 509.556, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_hopi_easy', 5, 4, 3, -383.969, -1280.74, -2494.74, 383.969, -1406.42, -1281.71, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_hopi_easy', 4, 4, 2, 639.969, -6335.76, -1598.85, -639.969, -5377.03, -1476.07, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_hopi_easy', 3, 4, 1, 639.969, 8063.9, 1344.04, -633.397, 7938.38, 2815.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_hopi_easy', 3, 4, 1, 639.969, 8063.9, 1344.04, -633.397, 7938.38, 2815.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_hopi_easy', 2, 4, 0, -895.969, 3584.63, 2687.78, 895.969, 3712.36, 2306.15, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_hopi_easy', 1, 2, 0, -317.837, -402.007, -127.969, 319.969, -959.441, 61.5699, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_hopi_easy', 0, 1, 0, 399.857, 335.824, -27.969, -394.709, 129.217, -127.969, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -5930,7 +5939,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_injection_njv', 7, 1, 0, 2047.97, 1023.92, 1407.47, 1535.12, 0.031311, 1034.1, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_injection_njv', 8, 0, 0, 3339.27, -1040.03, 199.11, 3498.66, -3055.97, 20.5911, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_injection_njv', 9, 1, 0, 5128.03, -2193.07, 1568.06, 5281.93, -1903.45, 1040.03, 0, 0, 1, 'bonus 1', 'None', 'player', 0, 260),
-('surf_injection_njv', 10, 2, 0, 8685.5, -1552.03, -344.732, 8242.67, -2511.57, -527.969, 0, 0, 1, 'bonus 1', 'None', 'player', 0, 260),
+('surf_injection_njv', 10, 2, 0, 8685.5, -1552.03, -344.732, 8242.67, -2511.57, -527.969, 0, 0, 1, 'bonus 1', 'None', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_injection_njv', 11, 2, 1, 5190.5, -4416.03, 288.43, 5212.3, -4799.97, 503.097, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_injustice', 7, 6, 0, 7944.46, 9727.94, 6148.03, 5896.52, 7680.81, 7172.03, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_injustice', 5, 4, 1, -824.225, -5376.19, -2139.47, -804.434, -4608.37, -1019.53, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -5938,8 +5948,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_injustice', 6, 4, 2, -1530.08, -6092.97, -6970.19, -1586.27, -4751.57, -5753.31, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_injustice', 4, 4, 0, 1063.42, -3251.09, 1709.2, 99.4135, -3248.15, 3146.02, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_injustice', 0, 1, 0, 1095.47, 4018.18, 4860.51, 1031.89, 4432.68, 4790.53, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_injustice', 1, 2, 0, -6967.72, -10239.9, -6799.47, -7543.26, -9760.13, -7259.47, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_injustice', 1, 2, 0, -6967.72, -10239.9, -6799.47, -7543.26, -9760.13, -7259.47, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_injustice', 3, 2, 0, 4592.89, 4913.96, -2085.97, 4277.23, 4442.01, -2715.97, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_injustice', 2, 1, 0, 1084.03, 4000.15, 4749.5, 1158.65, 4117.6, 4659.53, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_innokia', 3, 3, 2, 14000, 6143.97, 14320, 14255.8, 5888.16, 14000, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
@@ -6326,7 +6335,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_kinetic', 6, 1, 0, -312.695, -1777.28, -925.61, -460.58, -1923.79, -1025.61, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_kinetic', 5, 2, 0, -12672, 8532.1, -3935.09, -12992, 8915.94, -5120.09, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_kinetic', 1, 3, 0, -3336.14, 1575.97, 2292.31, -3783.9, 1192.03, 2359.42, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_kinetic', 0, 1, 0, -1304.18, 271.9, 468.031, -1766, -175.454, 574.334, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_kinetic', 0, 1, 0, -1304.18, 271.9, 468.031, -1766, -175.454, 574.334, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_kinetic', 4, 3, 3, 10537.8, 9043.96, 5136.03, 10285.9, 8404.03, 5210.43, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_kinshi', 3, 3, 2, -2852.16, 3551.97, -17.8039, -3096.83, 2816.03, 99.2487, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_kinshi', 4, 3, 3, 933.844, 3551.97, -17.3787, 690.521, 2816.03, 117.807, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -6334,8 +6344,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_kinshi', 6, 3, 5, 8965.91, 3551.97, -17.7038, 8720.03, 2820.94, 76.0503, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_kinshi', 7, 3, 6, -11441, 4606.97, -1336, -11676, 3875.01, -1234.25, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_kinshi', 0, 1, 0, -11244.9, 2816.03, -17.7406, -11491, 3551.18, 107.555, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_kinshi', 9, 1, 0, -8904.58, 572.306, 2284.03, -9132.65, 2243.97, 2380.6, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_kinshi', 9, 1, 0, -8904.58, 572.306, 2284.03, -9132.65, 2243.97, 2380.6, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_kinshi', 10, 2, 0, -5676.15, 1523.97, 1526.17, -5917.18, 1280.9, 1424.03, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_kinshi', 2, 3, 1, -5370.07, 3551.97, -17.8548, -5615.43, 2816.03, 78.2485, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_kinshi', 1, 3, 0, -9168.07, 3551.97, -17.7792, -9412.45, 2816.03, 83.3841, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -6594,7 +6603,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_lax_fix', 6, 3, 5, 3940.56, 3586.27, 5088.03, 4960.81, 4607.97, 5134.57, 0, 0, 0, 'Start 0', 'None', 'player', 1, 0),
 ('surf_leafy', 1, 2, 0, -511.174, -1022.59, 515.591, 511.969, -4.3706, 880.162, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_leafy', 0, 1, 0, -239.851, -496.19, 164.031, 303.86, -1039.69, 64.0312, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_leafy', 4, 4, 0, 6048.74, 4800.14, -223.969, 6591.97, 5343.07, 13.8239, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_leafy', 2, 4, 0, 6048.74, 4800.14, -223.969, 6591.97, 5343.07, 13.8239, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_lechumap', 4, 4, 1, 578.818, -833.786, -4295.97, -54.9688, -201.634, -4305.52, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_lechumap', 5, 4, 2, -1824.33, -280.031, -3551.19, -2045.6, -902.969, -3547.81, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_lechumap', 6, 4, 3, 1932.03, -3839.93, -2331.12, 2845.97, -3860.36, -2068.83, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -6717,7 +6726,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_lessons', 9, 1, 0, 3427.72, -8919.84, 284.031, 3044.16, -8648.03, 343.728, 0, 0, 1, 'bonus 1', 'None', 'player', 0, 260),
 ('surf_lessons', 0, 3, 0, 240.809, -1063.07, 16.0312, -78.2285, -1574.97, 87.4613, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_lessons', 5, 3, 2, 229.969, -3443.84, 331.963, -409.969, -3825.63, 397.962, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
-('surf_lessons', 1, 3, 3, 203.698, -4370.94, 433.031, -51.8808, -4690.72, 360.031, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
+('surf_lessons', 1, 3, 3, 203.698, -4370.94, 433.031, -51.8808, -4690.72, 360.031, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_lessons', 2, 3, 4, 401.846, -5868.09, 2458.03, -109.969, -6379.24, 2520.42, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_lessons', 3, 3, 5, 241.798, -6924.1, 1796.03, -397.969, -7819.6, 1861.42, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_lianfora', 6, 4, 2, -15327.2, 11040, -5630.03, -12096, 7187.07, -5552.37, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -6725,8 +6735,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_lianfora', 5, 4, 1, -7552.03, 13503.5, 6591.83, -7465.23, 4416.03, 4352.11, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_lianfora', 0, 1, 0, -12416.5, 15614, 15040, -12993.8, 8448.03, 15236.6, 0, 0, 0, 'Start 0', 'None', 'player', 1, 450),
 ('surf_lianfora', 3, 2, 0, -12384, -12800.3, 9280.41, -6305.62, -13567.5, 10496, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 450),
-('surf_lianfora', 2, 1, 0, -10336, 5568.78, 14080.2, -8416.03, 5886.74, 14182, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 450);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_lianfora', 2, 1, 0, -10336, 5568.78, 14080.2, -8416.03, 5886.74, 14182, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 450),
 ('surf_lianfora', 1, 2, 0, -1981.46, 11008.6, -11488, 7423.97, 11671.1, -8844.15, 0, 0, 0, 'Start 0', 'None', 'player', 1, 450),
 ('surf_lianfora', 7, 4, 3, 7167.97, -5833.44, -3274.15, -1983.97, -8093.28, -8675.56, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_lianfora_fix', 4, 4, 2, -15327.7, 11040, -5615.62, -12097.2, 7168.03, -5630.98, 0, 0, 0, 'bonus 1', 'None', 'player', 1, 250),
@@ -7112,15 +7121,15 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_lt_omnific', 6, 2, 1, -9427.97, -3372.12, -13570, -10028.5, -2769.38, -13468, 0, 0, 0, 'Start 0', 'None', 'player', 0, 450),
 ('surf_lt_omnific', 16, 2, 2, -9424.37, -10962.1, -13570, -10032.5, -11570.6, -13468, 0, 0, 0, 'Start 0', 'None', 'player', 0, 450),
 ('surf_lt_omnific', 11, 3, 2, -14352, 6127.97, -9473.97, -14995.5, 4112.03, -9371.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 0),
-('surf_lt_omnific', 19, 3, 16, -15344, -7791.97, -7009.97, -14635.4, -6544.03, -6907.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 0),
+('surf_lt_omnific', 19, 3, 16, -15344, -7791.97, -7009.97, -14635.4, -6544.03, -6907.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 0);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_lt_omnific_fix', 0, 1, 0, 7167.7, 12287.7, -767.969, 6158.83, 10240, -5.8439, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_lt_omnific_fix', 1, 3, 0, -13792.3, 8448.03, -10591.6, -14714.5, 9983.97, -10115.1, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
 ('surf_lt_omnific_fix', 2, 3, 1, -11265.1, 8224.69, 7200.03, -12254.8, 10205, 8159.97, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
 ('surf_lt_omnific_fix', 3, 3, 2, -15007.8, 6143.97, -9471.84, -14343.7, 4096.03, -8548.61, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
 ('surf_lt_omnific_fix', 4, 3, 3, -4064.39, -4095.68, -5119.97, -5119.97, -2056.24, -4596.37, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
 ('surf_lt_omnific_fix', 5, 3, 4, -13183.3, 6111.97, -6111.66, -12288, 4135.19, -5696.58, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
-('surf_lt_omnific_fix', 6, 3, 5, 2846.93, -127.969, -9951.47, 2112.03, 2172.52, -9475.36, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_lt_omnific_fix', 6, 3, 5, 2846.93, -127.969, -9951.47, 2112.03, 2172.52, -9475.36, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
 ('surf_lt_omnific_fix', 7, 3, 6, -5120.64, 4129.04, -5663.97, -6111.97, 6109.64, -5189.62, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
 ('surf_lt_omnific_fix', 8, 3, 7, 6655.77, 7681.6, -416.031, 7680.56, 6656.03, -1024.23, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
 ('surf_lt_omnific_fix', 9, 3, 8, -13502.5, 12832, -13247.7, -11968, 13841.5, -12864.2, 0, 0, 0, 'Start 0', 'None', 'player', 0, 0),
@@ -7503,15 +7512,15 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_mephobia', 10, 2, 2, 394.375, -7773.12, 4470.58, 554.831, -8058.57, 4571.97, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_mephobia_final', 5, 3, 4, 10478.1, -15039.1, 14051.8, 11499.7, -15473, 14121.2, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_mephobia_final', 4, 3, 3, -1071.03, 11645.1, 12886, -2030.97, 12605.1, 12964.5, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_mephobia_final', 3, 3, 2, 2593.06, 11939.1, -3011.97, 3215.97, 13090.5, -2906.67, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_mephobia_final', 3, 3, 2, 2593.06, 11939.1, -3011.97, 3215.97, 13090.5, -2906.67, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_mephobia_final', 2, 3, 1, -11108.4, 6751.58, -6446.97, -12424, 7037.88, -6376.61, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_mephobia_final', 6, 2, 0, 10700.3, -10188.3, -11896, 11347.6, -9541.57, -13301, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_mephobia_final', 1, 3, 0, 4828.41, 3730.84, -7256.97, 5915.27, 3299.03, -7210.78, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_mephobia_final', 0, 1, 0, 4779.85, 2083.53, -7451.97, 3676.03, 2522.41, -7383.15, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_mephobia_final', 7, 1, 0, -1581.12, -8456.84, 3846.03, -1905.49, -7325.03, 3923.3, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_mephobia_final', 8, 2, 0, 332.108, -7710.24, 4470.1, 555.969, -8122.41, 4569.78, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
-('surf_meridional', 5, 3, 4, 2720.13, 3776.27, 8411.18, 3058.1, 4415.05, 8534.24, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_meridional', 5, 3, 4, 2720.13, 3776.27, 8411.18, 3058.1, 4415.05, 8534.24, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_meridional', 4, 3, 3, -12607.8, -63.8484, -5951.97, -12300, 575.492, -5852.95, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_meridional', 3, 3, 2, 3455.96, -63.9262, 3764, 3136.03, 575.369, 3841.5, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_meridional', 2, 3, 1, -6143.83, -63.8933, -2615.69, -5823.06, 575.747, -2515.69, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -7891,15 +7900,15 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_motion1_easy', 2, 4, 1, -2672.54, -1105.54, 5416.03, -2652.74, -961.574, 5671.38, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_motion1_easy', 6, 2, 0, -6304.1, -1826.08, -3983.97, -7007.97, -2088.55, -3665, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_motion1_easy', 1, 4, 0, -3648.2, 1099.82, 3128.13, -2879.36, 926.829, 3335.65, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_motion1_easy', 0, 1, 0, -4415.97, 2623.91, 5184.08, -2123.07, 2110.03, 5287.3, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_motion1_easy', 0, 1, 0, -4415.97, 2623.91, 5184.08, -2123.07, 2110.03, 5287.3, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_motion_v2', 0, 2, 1, -6305.03, -1847.97, -3983.97, -7006.97, -1599.74, -3842.97, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_motion_v2', 1, 1, 1, -4413.97, 2623.36, 5184.03, -2113.03, 2142.03, 5284.03, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_mudkip_fix', 0, 1, 0, -13825, 1023, 3071, -11775, 2049, 3585, 0, 0, 0, 'Start 0', 'start_zone', 'player', 0, 260),
 ('surf_mudkip_fix', 1, 2, 0, -14337, 9215, -10241, -11263, 12289, -7167, 0, 0, 0, 'Start 0', 'end_zone', 'player', 0, 260),
 ('surf_mudkip_fix', 2, 4, 0, -14337, 13311, 12799, -13567, 13441, 13569, 0, 0, 0, 'Start 0', 'checkpoint_1', 'player', 0, 260),
 ('surf_mudkip_fix', 3, 4, 1, -2049, -3073, 5375, 1569, -3039, 5761, 0, 0, 0, 'Start 0', 'checkpoint_2', 'player', 0, 260),
-('surf_mudkip_fix', 4, 4, 2, 9087, 9471, 3967, 11009, 11521, 4097, 0, 0, 0, 'Start 0', 'checkpoint_3', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_mudkip_fix', 4, 4, 2, 9087, 9471, 3967, 11009, 11521, 4097, 0, 0, 0, 'Start 0', 'checkpoint_3', 'player', 0, 260),
 ('surf_mudkip_fix', 5, 4, 3, 5471, 5471, -8961, 6817, 6817, -8831, 0, 0, 0, 'Start 0', 'checkpoint_4', 'player', 0, 260),
 ('surf_mudkip_fix', 6, 1, 1, -5441, 12287, 8079, -5375, 12769, 8417, 0, 0, 1, 'bonus 1', 'bonus1_start TH', 'player', 0, 260),
 ('surf_mudkip_fix', 7, 2, 1, -14977, -3585, -4609, -14591, -3199, -4095, 0, 0, 1, 'bonus 1', 'bonus1_end', 'player', 0, 260),
@@ -8284,15 +8293,15 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_noble', 0, 1, 0, 2035.92, 0.03125, 643.339, 0.03125, 446.338, 544.523, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_noble', 1, 3, 0, 5632.03, -1279.97, 4304.03, 5151.97, -1760.03, 4224.03, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_noble', 2, 3, 1, -2143.97, -2143.97, -3407.97, -3104.03, -2687.97, -3487.97, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
-('surf_noble', 3, 3, 2, 5119.97, -5088.03, 4848.03, 4703.97, -7135.97, 4768.03, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
+('surf_noble', 3, 3, 2, 5119.97, -5088.03, 4848.03, 4703.97, -7135.97, 4768.03, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_noble', 4, 3, 3, -5888.03, 2111.97, 8336.03, -7935.97, 1599.97, 8256.03, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_noble', 5, 2, 0, -12195.2, -2816.03, 5121.8, -13150.5, -6559.97, 5918.35, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_noble', 6, 1, 0, 7167.97, 10816, 6960.03, 6367.97, 8768.03, 6880.03, 0, 0, 1, 'BONUS 1', 'None', 'player', 1, 260),
 ('surf_noble', 7, 2, 0, -1052.78, 8768.03, 5668.81, -615.895, 10816, 6072.83, 0, 0, 1, 'BONUS 1', 'None', 'player', 1, 260),
 ('surf_noble_csgo', 4, 3, 3, -5888.54, 1600.05, 8256.03, -7928.37, 2111.97, 8379.68, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_noble_csgo', 3, 3, 2, 4320.03, -6272.26, 4768.78, 5119.97, -5951.32, 4895.42, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_noble_csgo', 2, 3, 1, -2144.23, -2144.2, -3487.97, -3103.62, -2687.97, -3347.02, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_noble_csgo', 2, 3, 1, -2144.23, -2144.2, -3487.97, -3103.62, -2687.97, -3347.02, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_noble_csgo', 5, 2, 0, -12192.1, -6559.92, 5120.03, -13131.6, -2817.03, 5917.71, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_noble_csgo', 1, 3, 0, 5631.93, -1280.04, 4324.03, 5152.06, -1759.78, 4224.03, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_noble_csgo', 0, 1, 0, 0.044964, 447.856, 544.031, 2047.97, 5.07195, 656.162, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -8675,15 +8684,15 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_oompa2', 0, 1, 0, 767.951, 317.847, 0.03125, -320.624, -318.899, 235.167, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_oompa2', 2, 4, 1, -7167.97, 4076.96, -10537.2, -4989.49, 4093.29, -12288, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_opus', 5, 2, 0, -10895.9, 1551.72, -15824, -10337.4, 148.031, -15096.3, 0, 0, 2, 'bonus 2', 'None', 'player', 1, 250),
-('surf_opus', 4, 1, 0, -13424.1, 144.377, -12682, -14804.7, 1551.54, -12832, 0, 0, 2, 'bonus 2', 'None', 'player', 1, 250),
+('surf_opus', 4, 1, 0, -13424.1, 144.377, -12682, -14804.7, 1551.54, -12832, 0, 0, 2, 'bonus 2', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_opus', 9, 2, 0, 3024.03, -6687.96, -3407.97, 2196.27, -3538.73, 591.969, 0, 0, 4, 'bonus 4', 'None', 'player', 1, 250),
 ('surf_opus', 8, 1, 0, 7840.06, 1663.91, 4406.03, 8671.9, 640.047, 4256.03, 0, 0, 4, 'bonus 4', 'None', 'player', 1, 250),
 ('surf_opus', 3, 2, 0, 1791.56, 255.966, 10576, 256.634, -255.181, 11024, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_opus', 7, 2, 0, 6896.06, -14704, -14335.8, 6346.44, -12691.5, -14016, 0, 0, 3, 'bonus 3', 'None', 'player', 1, 250),
 ('surf_opus', 6, 1, 0, 4831.93, -15616.2, -11520, 4160.03, -16223.6, -11369.5, 0, 0, 3, 'bonus 3', 'None', 'player', 1, 250),
 ('surf_opus', 0, 1, 0, -14976.1, 575.926, 10176, -15354.7, -319.969, 10288.1, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_opus', 1, 2, 0, -12672.1, -15999, -8511.99, -14975.8, -14465, -7635.8, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_opus', 1, 2, 0, -12672.1, -15999, -8511.99, -14975.8, -14465, -7635.8, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_opus', 13, 4, 2, -15471.1, -14176, -4738.75, -14656, -13058, -4861.98, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_opus', 12, 4, 1, 2367.97, -14893.9, 5084.11, 1280.03, -13252, 4927.79, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_opus', 2, 1, 0, -448.071, -127.843, 13652, -703.664, 127.918, 13552, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
@@ -9068,15 +9077,15 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_pavilion', 3, 3, 2, -5493.13, 8702.4, -6691.97, -5826.97, 9124.82, -6487.47, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_pavilion', 2, 3, 1, -9491.05, 2992.15, -1424.97, -10527, 3369.51, -1273.46, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_pavilion', 5, 2, 0, 6254.82, -2151.97, -13346.3, 6158.26, -2077.03, -14255, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_pavilion', 1, 3, 0, -7615.07, 955.997, 9579.03, -7923.97, 720.349, 9749.42, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_pavilion', 1, 3, 0, -7615.07, 955.997, 9579.03, -7923.97, 720.349, 9749.42, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_pavilion', 0, 1, 0, -7311.13, -1726.06, 14113, -7849.97, -2677.73, 14442.1, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_pavilion_rg', 0, 3, 3, 5042.77, -2359.39, -8522.97, 4713.27, -2230.9, -8422.97, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_pavilion_rg', 1, 2, 1, 6252.15, -2152.35, -15870.5, 6156.94, -2078.82, -15770.5, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_pavilion_rg', 2, 3, 1, -10511, 3076.02, -1424.97, -10395.5, 3341.93, -1324.97, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_pavilion_rg', 3, 3, 0, -7902.97, 801.031, 9573.03, -7859.89, 872.99, 9679.03, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_pavilion_rg', 4, 1, 1, -7311.08, -1724.09, 14113, -7482.06, -2678.24, 14213, 0, 0, 0, '', 'None', 'player', 0, 260),
-('surf_pavilion_rg', 5, 3, 2, -5790.76, 8838.94, -6691.97, -5625.76, 8962.28, -6591.97, 0, 0, 0, '', 'None', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_pavilion_rg', 5, 3, 2, -5790.76, 8838.94, -6691.97, -5625.76, 8962.28, -6591.97, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_perfomance', 3, 3, 2, -2048.17, -4383.74, -2367.97, -3071.97, -5803.48, -2181.94, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_perfomance', 2, 3, 1, -12224.2, 11617.4, 4416.19, -13888, 10642.2, 4700.94, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_perfomance', 4, 2, 0, -8000.03, -9727.88, -8511.97, -9715.2, -512.031, -6102.98, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -9458,15 +9467,15 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_prosperous', 7, 3, 6, 3277.95, 7307.18, 520.031, 2318.17, 7770.97, 798.659, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_prosperous', 6, 3, 5, -7423.04, 3146.96, 1118.36, -7804.13, 2798.36, 1227.15, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_prosperous', 5, 3, 4, -3219.03, 1617.13, -295.95, -2891.86, 1489.23, 35.0471, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_prosperous', 4, 3, 3, 2168.88, 1474.66, -236.969, 1878.39, 1246.75, -75.3057, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_prosperous', 4, 3, 3, 2168.88, 1474.66, -236.969, 1878.39, 1246.75, -75.3057, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_prosperous', 3, 3, 2, 555.473, 1597.02, 736.031, 1386.44, 1341.03, 862.673, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_prosperous', 2, 3, 1, -874.951, 687.948, 527.031, -41.3123, 432.031, 653.591, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_prosperous', 10, 2, 0, 279.609, 6964.32, 205.745, -765.612, 7781.55, -349.038, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_prosperous', 1, 3, 0, -631.403, -43.1404, 297.031, 391.087, 211.969, 410.521, 0, 0, 0, 'Start 0', 'None', 'player', 0, 250),
 ('surf_prosperous', 0, 1, 0, 2672.91, 710.969, 245.038, 2032.63, 1030.97, 351.393, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_proximity_final', 1, 3, 3, -1920.1, 607.93, 7440.03, -2111.97, 224.16, 7503.69, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
-('surf_proximity_final', 2, 3, 2, 5567.92, 3567.94, 1024.03, 5072.46, 2576.03, 1103.54, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_proximity_final', 2, 3, 2, 5567.92, 3567.94, 1024.03, 5072.46, 2576.03, 1103.54, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_proximity_final', 5, 3, 1, -1663.8, 5504.08, 6914.94, -1280.03, 6527.7, 6848.66, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_proximity_final', 6, 3, 0, -3856.03, 5599.84, 604, -3409.95, 4447.97, 288.331, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_proximity_final', 3, 2, 0, -1232.03, -2896.03, 9310.5, -2095.97, -3759.97, 9397.75, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
@@ -9774,6 +9783,12 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_raq', 3, 2, 0, -4825.84, -405.173, -3302.97, 874.969, 404.886, -2410.14, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_raq', 1, 4, 0, -1855.03, 629.306, 2899.91, -2112.37, 639.242, 2643.03, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_raq', 0, 1, 0, -2495.84, 1793.8, 2833.26, -1557.79, 1378.03, 2924.92, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_rat', 5, 4, 3, 3024.9, 2162, -13557.4, 5128, 4921.87, -13646.4, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_rat', 0, 1, 0, 1456.03, -336.12, 2886.21, 2047.71, -766.265, 3013.08, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_rat', 1, 2, 0, -11430, 2571.14, -15480, -12255.2, 4611, -14280.4, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_rat', 3, 4, 1, 11198.5, 4432, -1599.96, 11176, 2329.75, -1103.4, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_rat', 4, 4, 2, 9429.01, 4377.38, -7449.08, 8070.53, 2782, -6027.53, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_rat', 2, 4, 0, 560.332, 3066.58, 119.969, 574.117, 4023.97, -854.951, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_ravine_go', 10, 2, 0, 7685.54, 12165.2, -1894.97, 6736.69, 11144.8, -1739.97, 0, 0, 4, 'bonus 4', 'None', 'player', 1, 250),
 ('surf_ravine_go', 9, 1, 0, 4240.07, 11403, 1047.03, 4743.74, 11886.6, 1118.03, 0, 0, 4, 'bonus 4', 'None', 'player', 1, 250),
 ('surf_ravine_go', 8, 2, 0, 14920, -11968, -695.969, 14472.1, -11520.2, -175.969, 0, 0, 3, 'bonus 3', 'None', 'player', 1, 250),
@@ -9845,7 +9860,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_reblis', 3, 2, 0, 607.969, -10975, -6414.8, -817.25, -9663.48, -7135.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_reblis', 1, 4, 0, 1295.86, -8352.03, 4335.79, -1514.55, -11184, 4324.04, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_reblis', 0, 1, 0, 172.915, -543.846, 7824.03, -427.683, -272.031, 7972.19, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_reblis_final', 5, 2, 0, -9250.02, 10708, -2879.97, -10148, 12183, -2363.3, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
+('surf_reblis_final', 5, 2, 0, -9250.02, 10708, -2879.97, -10148, 12183, -2363.3, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_reblis_final', 4, 1, 0, 9898.22, 10876, 3024.06, 10254.6, 11900, 3137.03, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_reblis_final', 3, 2, 0, 607.969, -10973.4, -6413.08, -815.724, -9666.72, -7135.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_reblis_final', 1, 4, 0, 1295.97, -8352.53, 4335.54, -1521.73, -11184, 4316.63, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -9857,8 +9873,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_redemption_b1', 3, 3, 1, -10879, 3519.6, 8080.66, -9334.75, 5118.54, 8224.84, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_redemption_b1', 4, 2, 1, -824.031, -10436, -2214.47, -1571.51, -11347.6, -1726.77, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_redemption_b1', 5, 6, 0, -6062.95, -1067.98, -5906.42, -5586.59, -476.877, -6023.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_reflex', 3, 4, 2, -7514.1, -2530.03, 5586.12, -7463.98, -5939.97, 3728.31, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_reflex', 3, 4, 2, -7514.1, -2530.03, 5586.12, -7463.98, -5939.97, 3728.31, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_reflex', 0, 1, 0, 10143.4, -13542, 13087.3, 10521.9, -13963.8, 12986.3, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_reflex', 2, 4, 1, 11394.1, -6590.61, -7393.98, 8549.39, -4219.59, -7371.22, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_reflex', 6, 6, 0, -4989.72, -4481.31, -2076.56, -4950.28, -4288.37, -1788.98, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -10244,7 +10259,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_runewords2', 6, 2, 1, -7105, 10047, -1761, -6271, 15553, -895, 0, 0, 1, 'bonus 1', 'b1_end', 'player', 0, 260),
 ('surf_runewords2', 7, 1, 1, -12673, 8735, 15167, -11711, 9409, 15777, 0, 0, 2, 'bonus 2', 'b2_start', 'player', 0, 260),
 ('surf_runewords2', 8, 2, 1, -14113, 7839, 7935, -10271, 8929, 9377, 0, 0, 2, 'bonus 2', 'b2_end', 'player', 0, 260),
-('surf_runewords2', 9, 1, 1, -7265, 4095, -1409, -5983, 5057, -863, 0, 0, 3, 'bonus 3', 'b3_start', 'player', 0, 260),
+('surf_runewords2', 9, 1, 1, -7265, 4095, -1409, -5983, 5057, -863, 0, 0, 3, 'bonus 3', 'b3_start', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_runewords2', 10, 2, 1, -7137, 12927, -6049, -6111, 15841, -4511, 0, 0, 3, 'bonus 3', 'b3_end', 'player', 0, 260),
 ('surf_runewords2', 11, 1, 1, -33, 3679, 8863, 2593, 4353, 9185, 0, 0, 4, 'bonus 4', 'b4_start', 'player', 0, 260),
 ('surf_runewords2', 12, 2, 1, -4321, -15521, 6271, -3167, -12575, 8065, 0, 0, 4, 'bonus 4', 'b4_end', 'player', 0, 260),
@@ -10257,8 +10273,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_runewords2_lod', 16, 1, 1, -12353, -14657, -8193, -11711, -13631, -7807, 0, 0, 6, 'bonus 6', 'b6_start', 'player', 1, 350),
 ('surf_runewords2_lod', 15, 2, 1, 10495, 2753, -7873, 13185, 3777, -7519, 0, 0, 5, 'bonus 5', 'b5_end', 'player', 1, 350),
 ('surf_runewords2_lod', 14, 1, 1, 9791, 5503, -3713, 13889, 6081, -3327, 0, 0, 5, 'bonus 5', 'b5_start', 'player', 1, 350),
-('surf_runewords2_lod', 13, 2, 1, 2241, -2561, -13825, 3489, 513, -13055, 0, 0, 2, 'bonus 2', 'b4_end', 'player', 1, 350);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_runewords2_lod', 13, 2, 1, 2241, -2561, -13825, 3489, 513, -13055, 0, 0, 2, 'bonus 2', 'b4_end', 'player', 1, 350),
 ('surf_runewords2_lod', 12, 1, 1, -15841, -1537, -11777, -15071, -511, -11007, 0, 0, 4, 'bonus 4', 'b4_start', 'player', 1, 350),
 ('surf_runewords2_lod', 11, 2, 1, 11583, -2497, -13841, 13121, -1921, -13455, 0, 0, 3, 'bonus 3', 'b3_end', 'player', 1, 350),
 ('surf_runewords2_lod', 10, 1, 1, 11935, 14079, -11233, 12769, 14625, -10943, 0, 0, 3, 'bonus 3', 'b3_start', 'player', 1, 350),
@@ -10637,7 +10652,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_secluded', 0, 1, 0, 511.841, 32.0526, 5728.03, -511.969, 255.811, 5844.24, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_secluded', 3, 3, 2, 511.806, 1168.17, -2335.97, -511.969, 1405.55, -2253.32, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_secluded', 4, 3, 3, 767.41, 5904.39, -4703.97, -767.969, 6152.79, -4582.94, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_second', 4, 4, 2, -4503.28, 1025.32, -3647.97, -4480.07, 1599.97, -3072.26, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_second', 4, 4, 2, -4503.28, 1025.32, -3647.97, -4480.07, 1599.97, -3072.26, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_second', 3, 4, 1, -3283.26, 11520.3, 1280.03, -3263.97, 11903.8, 1597.67, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_second', 2, 4, 0, -2990.4, 11577.1, 5056.27, -3008.03, 11840.3, 5388.08, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_second', 1, 2, 0, -1280.03, 3455.92, -1376.01, 415.04, 1793.91, -127.012, 0, 0, 0, 'Start 0', 'None', 'player', 1, 350),
@@ -10650,8 +10666,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_second_ksf', 4, 2, 0, -1281, 1791, -1377, 449, 3457, -447, 0, 0, 0, 'Start 0', 'end_zone', 'player', 0, 260),
 ('surf_second_ksf', 5, 1, 1, -1, 10687, 1663, 513, 11009, 2177, 0, 0, 1, 'bonus 1', 'bonus1_start', 'player', 0, 260),
 ('surf_second_ksf', 6, 2, 1, -16257, 7167, -1409, -15551, 8513, 449, 0, 0, 1, 'bonus 1', 'bonus1_end', 'player', 0, 260),
-('surf_selenka', 0, 1, 0, -11553, 3039, 8031, -11039, 5089, 8545, 0, 0, 0, 'Start 0', 'start_s1', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_selenka', 0, 1, 0, -11553, 3039, 8031, -11039, 5089, 8545, 0, 0, 0, 'Start 0', 'start_s1', 'player', 0, 260),
 ('surf_selenka', 1, 3, 0, -13953, -1025, 13279, -13439, 1025, 13793, 0, 0, 0, 'Start 0', 'start_s2', 'player', 0, 260),
 ('surf_selenka', 2, 3, 1, -2881, 7039, 14975, -2431, 7809, 15425, 0, 0, 0, 'Start 0', 'start_s3', 'player', 0, 260),
 ('surf_selenka', 3, 3, 2, -257, 639, 11519, 257, 961, 11969, 0, 0, 0, 'Start 0', 'start_s4', 'player', 0, 260),
@@ -11031,7 +11046,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_sippysip', 4, 4, 2, -10526, 2479.21, 3388.45, -11875.4, 1352.29, 3406.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_sippysip', 5, 1, 0, 5844.99, 6968.03, 15746.7, 6232.3, 8247.97, 15994.1, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_sippysip', 6, 2, 0, -646.031, 671.032, 12863.3, -1413.89, 1461.52, 12832, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
-('surf_sippysip', 7, 4, 3, -13856, -10866.7, -93.2976, -8675.31, -10020, -122.736, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_sippysip', 7, 4, 3, -13856, -10866.7, -93.2976, -8675.31, -10020, -122.736, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_sippysip', 8, 2, 1, -1413.97, 14521.2, 12862.5, -646.693, 13753.2, 12832, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_sippysip', 9, 1, 0, 10605.6, 2375.4, -3621.97, 9586.87, 328.031, -3300.25, 0, 0, 2, 'bonus 2', 'None', 'player', 1, 250),
 ('surf_sippysip', 10, 2, 0, -16209.3, 6599.97, -6887.04, -15122, 5737.42, -7238.3, 0, 0, 2, 'bonus 2', 'None', 'player', 1, 250),
@@ -11043,8 +11059,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_si_fa', 6, 2, 0, -13679.8, 5760.27, -6755.97, -12656.1, 6271.82, -7455.97, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_si_fa', 0, 1, 0, 1407.9, 0.050896, 292.031, 384.089, 511.955, 192.031, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_si_fa', 1, 3, 0, -2880.23, 0.058281, 164.031, -3903.96, 511.8, 64.0312, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_skeelee', 2, 3, 1, -2625.3, 1407.29, 1280.03, -3055.97, 641.558, 1376.96, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_skeelee', 2, 3, 1, -2625.3, 1407.29, 1280.03, -3055.97, 641.558, 1376.96, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_skeelee', 3, 3, 2, 3008.03, -383.969, 1872.03, 2576.03, -1152.03, 1792.03, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_skeelee', 4, 3, 3, 2495.7, 1665.19, 896.031, 2064.03, 2430.32, 966.346, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_skeelee', 5, 3, 4, 3006.96, -3966.95, 1792.03, 2576.03, -3206.56, 1951.12, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
@@ -11425,7 +11440,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_standard', 5, 3, 4, -381.033, 10033.4, 864.164, -951.119, 8976.61, 1145.93, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_standard', 4, 3, 3, -395.113, 8462.88, 951.031, -934.969, 7329.27, 1213.4, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_standard', 3, 3, 2, -388.244, 4488.86, 864.031, -993.143, 3294.03, 1124.26, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_standard', 2, 3, 1, -398.081, 3089.82, 864.031, -976.969, 1984.79, 1121.06, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_standard', 2, 3, 1, -398.081, 3089.82, 864.031, -976.969, 1984.79, 1121.06, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_standard', 7, 2, 0, 933.649, 10859.2, -1193.97, 164.031, 11376.4, -676.242, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_standard', 1, 3, 0, -381.168, 1714.93, 864.031, -939.369, 651.031, 1117.12, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_standard', 0, 1, 0, -364.352, 433.969, 864.326, -927.401, -629.969, 970.864, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -11437,8 +11453,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_starfire_csgo', 6, 2, 0, -3255.23, 3711.64, -3487.97, -3861.97, 4438.21, -3147.73, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_starfire_csgo', 5, 1, 0, -4791.31, 5036.18, -3487.97, -5434.97, 5262.58, -3412.62, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_starfire_csgo', 4, 2, 0, 13447, 14542, -12400, 15516, 11462.4, -11666.4, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_starfire_csgo', 1, 4, 0, -12610.7, -1439.03, 3712.71, -10125, -3639.34, 3605.4, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_starfire_csgo', 1, 4, 0, -12610.7, -1439.03, 3712.71, -10125, -3639.34, 3605.4, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_starfire_csgo', 0, 1, 0, -11140.9, -14645, 7989.03, -12102.3, -15285, 8094.66, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_starfire_csgo', 3, 4, 2, -88.3903, -6539.22, -5306.66, -139.604, -5113.17, -4359.09, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_stargaze', 4, 4, 3, -14393.3, 3434.42, 7332.76, -13156.3, 2782.51, 5197.89, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -11824,7 +11839,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_telstar', 20, 2, 0, 4605.69, -507.7, -5119.97, 4357.5, 511.969, -4277.88, 0, 0, 1, 'BONUS 1', 'None', 'player', 0, 450),
 ('surf_telstar', 23, 6, 18, 4312.07, 192.048, -5119.83, 4096.03, -190.896, -4948.59, 0, 0, 0, 'Start 0', 'None', 'player', 0, 450),
 ('surf_tempest', 7, 2, 1, -9153, 9792, 639, -7231, 10241, 1153, 0, 0, 2, 'bonus 2', 'zone_b2end', 'player', 0, 260),
-('surf_tempest', 6, 1, 1, -8641, 9791, 10111, -7743, 10177, 10369, 0, 0, 2, 'bonus 2', 'zone_b2start', 'player', 0, 260),
+('surf_tempest', 6, 1, 1, -8641, 9791, 10111, -7743, 10177, 10369, 0, 0, 2, 'bonus 2', 'zone_b2start', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_tempest', 5, 2, 1, 5376, 12416, 2751, 7424, 12929, 3137, 0, 0, 1, 'bonus 1', 'zone_hardex_b_end', 'player', 0, 260),
 ('surf_tempest', 4, 1, 1, 6175, 4383, 7199, 6625, 4833, 7329, 0, 0, 1, 'bonus 1', 'zone_b1start', 'player', 0, 260),
 ('surf_tempest', 3, 4, 1, -1343.97, 1138.37, -2562.18, 1343.97, 1462.27, -4621.94, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -11837,8 +11853,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_tempest2', 1, 2, 0, -1537, -10753, -11905, 1537, -9728, -11007, 0, 0, 0, 'Start 0', 'zone_map_end', 'player', 0, 260),
 ('surf_tempest2', 2, 1, 1, -11713, -12225, 12927, -10815, -11327, 13441, 0, 0, 1, 'bonus 1', 'zone_b1_start', 'player', 0, 260),
 ('surf_tempest2', 3, 2, 1, -11712, 5440, 10815, -10816, 6336, 11329, 0, 0, 1, 'bonus 1', 'zone_b1_end', 'player', 0, 260),
-('surf_tempest2', 4, 1, 1, -11905, 10879, -11969, -10879, 11905, -11263, 0, 0, 2, 'bonus 2', 'zone_b2_start', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_tempest2', 4, 1, 1, -11905, 10879, -11969, -10879, 11905, -11263, 0, 0, 2, 'bonus 2', 'zone_b2_start', 'player', 0, 260),
 ('surf_tempest2', 5, 2, 1, -12481, 10303, 14271, -10303, 12481, 15297, 0, 0, 2, 'bonus 2', 'zone_b2_end', 'player', 0, 260),
 ('surf_tempest2', 6, 4, 0, -6559.97, -6704.29, 16244.9, 5193.88, -5341.42, 10880, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_tempest2', 7, 4, 1, -1773.34, 9665.61, 12864, 1433.46, 10022.5, 11195.1, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -12218,7 +12233,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_transient', 10, 2, 1, -8001, 10079, 8447, -7386.94, 11137, 8673, 0, 0, 1, 'bonus 1', 'bonus1_end', 'player', 0, 260),
 ('surf_transient', 11, 1, 1, -6944.77, 7808.03, 11714.4, -7135.97, 8293.66, 11785.5, 0, 0, 1, 'bonus 1', 'None', 'player', 1, 250),
 ('surf_trapped', 3, 3, 2, 8000.14, 5984.34, 15200, 9002.19, 7007.97, 15328.4, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
-('surf_trapped', 4, 3, 3, 7263.97, 7808.26, 3840.17, 6240.03, 8791.94, 3968.89, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
+('surf_trapped', 4, 3, 3, 7263.97, 7808.26, 3840.17, 6240.03, 8791.94, 3968.89, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_trapped', 10, 2, 0, 4480.19, -15104.3, -10720, 9726.79, -16127.6, -9824.03, 0, 0, 2, 'bonus 2', 'None', 'player', 0, 260),
 ('surf_trapped', 9, 1, 0, 7615.52, 10688.2, -4383.97, 6592.03, 11651.3, -4255.44, 0, 0, 2, 'bonus 2', 'None', 'player', 0, 260),
 ('surf_trapped', 8, 2, 0, -12511.9, 831.845, -255.969, -9312.95, -1247.97, 758.415, 0, 0, 1, 'bonus 1', 'None', 'player', 0, 260),
@@ -12230,8 +12246,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_trapped', 2, 3, 1, 7967.78, -2207.78, 15552, 6944.03, -1196.05, 15681, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_trapped2', 0, 1, 0, -14049, 8095, 14271, -13023, 11393, 15041, 0, 0, 0, 'Start 0', 'stage1_start', 'player', 0, 260),
 ('surf_trapped2', 1, 3, 0, -6337, -4369, 12959, -5567, -3087, 13601, 0, 0, 0, 'Start 0', 'stage2_start', 'player', 0, 260),
-('surf_trapped2', 2, 3, 1, -14049, 2399, 7519, -13023, 5697, 8289, 0, 0, 0, 'Start 0', 'stage3_start', 'player', 0, 260);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_trapped2', 2, 3, 1, -14049, 2399, 7519, -13023, 5697, 8289, 0, 0, 0, 'Start 0', 'stage3_start', 'player', 0, 260),
 ('surf_trapped2', 3, 3, 2, -129, -13121, 13055, 641, -9823, 13761, 0, 0, 0, 'Start 0', 'stage4_start', 'player', 0, 260),
 ('surf_trapped2', 4, 3, 3, 8383, 11039, 13439, 11681, 11777, 14177, 0, 0, 0, 'Start 0', 'stage5_start', 'player', 0, 260),
 ('surf_trapped2', 5, 3, 4, 10438, 11999, -7165, 13736, 12737, -6459, 0, 0, 0, 'Start 0', 'stage6_start', 'player', 0, 260),
@@ -12613,7 +12628,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_valpect', 1, 1, 0, 14192, -11391.9, 13119.9, 13296, -11136.8, 13202.3, 0, 0, 1, 'BONUS 1', 'None', 'player', 0, 260),
 ('surf_valpect', 0, 1, 0, -991.982, -2607.97, 8831.95, -736.409, -1712.03, 8945.5, 0, 0, 0, 'Start 0', 'None', 'player', 0, 260),
 ('surf_valpect', 10, 4, 3, -4177, -2993, -4033, -3967, -2799, -3423, 0, 0, 0, 'Start 0', 'mapcp4', 'player', 0, 260),
-('surf_vast', 3, 3, 2, -12032, 16063.9, 15872, -12928, 14912.4, 15937.8, 0, 0, 0, 'Start 0', 'zone_stage4_start', 'player', 0, 260),
+('surf_vast', 3, 3, 2, -12032, 16063.9, 15872, -12928, 14912.4, 15937.8, 0, 0, 0, 'Start 0', 'zone_stage4_start', 'player', 0, 260);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_vast', 4, 3, 3, 2623.91, 14559.9, 3556.03, 1664.17, 13536.4, 3456.03, 0, 0, 0, 'Start 0', 'zone_stage5_start', 'player', 0, 260),
 ('surf_vast', 5, 2, 0, 5631.75, 7391.92, 64.0312, 4672.3, 6080.4, 767.969, 0, 0, 0, 'Start 0', 'zone_stage5_end', 'player', 0, 260),
 ('surf_vast', 1, 3, 0, -15616.2, 14591.9, 7808.03, -16064, 13504.3, 7873.09, 0, 0, 0, 'Start 0', 'zone_stage2_start', 'player', 0, 260),
@@ -12624,8 +12640,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_vdl_training', 0, 1, 0, -14720.1, 14591.9, 14948, -15231.9, 14080.1, 14848, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_vdl_training', 1, 3, 0, -14720.1, 12031.9, 14848, -15231.8, 11520.3, 14948, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_vdl_training', 2, 3, 1, -14720.2, 14080.3, 12288, -15231.5, 14591.7, 12388, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_vdl_training', 3, 3, 2, -15231.9, 11520, 12288, -14720.1, 12031.8, 12388, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_vdl_training', 3, 3, 2, -15231.9, 11520, 12288, -14720.1, 12031.8, 12388, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_vdl_training', 4, 3, 3, -14720.2, 14591.9, 9728.03, -15231.9, 14080.1, 9828.03, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_vdl_training', 5, 3, 4, -14720.1, 12031.7, 9728.03, -15231.9, 11520, 9828.03, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_vdl_training', 6, 3, 5, -14720.1, 14591.8, 7168.03, -15231.8, 14080.2, 7268.03, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
@@ -13006,7 +13021,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_x2_beta07', 6, 6, 0, 13439.9, 1407.97, 16159.9, 13436.6, -1408.18, 15360, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_x2_beta07', 0, 1, 0, 14207.9, 489.846, 15510, 13440.3, -471.181, 15360, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_x2_beta07', 1, 4, 0, 13438.8, 1408.43, 11520, 12928.8, -1408.3, 11008, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_x2_beta07', 5, 2, 0, -2304.24, 895.787, -496.72, -4603.99, -895.969, -2038.19, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_x2_beta07', 5, 2, 0, -2304.24, 895.787, -496.72, -4603.99, -895.969, -2038.19, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
+INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
 ('surf_xc_simplicity', 0, 3, 1, -2828.97, -1034.06, -27.9688, -3184.77, -1363.21, 72.0312, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_xc_simplicity', 1, 3, 0, -532.765, 184.031, 512.031, -1375.97, 600, 612.031, 0, 0, 0, '', 'None', 'player', 0, 260),
 ('surf_xc_simplicity', 2, 1, 1, -7945.21, 4497.98, 1874.03, -8231.35, 4238.03, 1974.03, 0, 0, 0, '', 'None', 'player', 0, 260),
@@ -13018,8 +13034,7 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_xd', 1, 3, 0, -1056.33, -2048.03, 8608.04, -2015.97, -2432.9, 8715.68, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_xd', 3, 6, 0, -5055.97, -3135.48, 3603.66, -5056.14, -2111.97, 3072.2, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_xeno', 4, 4, 3, 1471.6, -1057.15, -10368.7, 576.89, -2335.97, -10383.3, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
-('surf_xeno', 2, 4, 1, -2303.94, -5056.03, 3519.89, -2256.91, -8573.45, 2321.99, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250);
-INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x`, `pointa_y`, `pointa_z`, `pointb_x`, `pointb_y`, `pointb_z`, `vis`, `team`, `zonegroup`, `zonename`, `hookname`, `targetname`, `onejumplimit`, `prespeed`) VALUES
+('surf_xeno', 2, 4, 1, -2303.94, -5056.03, 3519.89, -2256.91, -8573.45, 2321.99, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_xeno', 3, 4, 2, 9023.88, -3840.03, -1280.27, 7648.73, -3819.07, -2523.83, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_xeno', 5, 2, 0, -10751.4, 10208, -13692, -9474.27, 10712.2, -12478, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_xeno', 1, 4, 0, 8928.1, -7406.21, 8699.1, 8954.75, -6239.24, 6911.28, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),

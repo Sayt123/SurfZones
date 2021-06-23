@@ -300,6 +300,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_damn', 5, 3500, 1, 1, 1),
 ('surf_dank', 2, 3500, 1, 1, 1),
 ('surf_dark_v1', 1, 3500, 0, 1, 1),
+('surf_deadline', 2, 3500, 0, 1, 1),
 ('surf_deathstar', 1, 3500, 1, 1, 1),
 ('surf_death_of_a_martian', 5, 3500, 1, 1, 1),
 ('surf_deceptive_final', 3, 3500, 1, 1, 1),
@@ -1050,6 +1051,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_rapid_fix', 3, 3500, 1, 1, 1),
 ('surf_rapid_njv', 3, 3500, 0, 0, 1),
 ('surf_raq', 2, 3500, 0, 1, 1),
+('surf_rat', 2, 3500, 0, 1, 1),
 ('surf_ravine_go', 2, 3500, 0, 1, 1),
 ('surf_razer_final', 3, 3500, 0, 1, 1),
 ('surf_reactor_go', 3, 3500, 0, 1, 1),
@@ -1390,10 +1392,10 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_wexo', 1, 3500, 0, 1, 1),
 ('surf_whiteout', 2, 3500, 1, 1, 1),
 ('surf_whiteout_csgo_v1', 2, 3500, 0, 0, 1),
-('surf_whoknows', 4, 3500, 1, 1, 1),
-('surf_whoknows2', 4, 5000, 1, 1, 1),
-('surf_whoknows3', 4, 5000, 1, 1, 1);
+('surf_whoknows', 4, 3500, 1, 1, 1);
 INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `gravityfix`, `ranked`) VALUES
+('surf_whoknows2', 4, 5000, 1, 1, 1),
+('surf_whoknows3', 4, 5000, 1, 1, 1),
 ('surf_whynot', 6, 3500, 1, 1, 1),
 ('surf_willy1', 1, 3500, 0, 1, 1),
 ('surf_windrunner_final', 1, 3500, 0, 1, 1),
