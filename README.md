@@ -15,4 +15,4 @@ Thanks to:
 
 
 Original creators of ck_zones and ck_maptiers base files, this was an immense help to the start of this project.
-Kotton for donating his zones and tier list which has been merged as of 5/11/21.
+Kotton for donating his zones and tier list which has been merged as of 5/11/21. 
