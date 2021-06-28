@@ -137,6 +137,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_a_tier_one_map', 1, 3500, 0, 1, 1),
 ('surf_a_xblah_reborn', 3, 3500, 0, 1, 1),
 ('surf_bacalhau', 2, 3500, 0, 1, 1),
+('surf_bageena', 1, 3500, 0, 1, 1),
 ('surf_basalt', 1, 3500, 0, 1, 1),
 ('surf_basic', 1, 3500, 0, 1, 1),
 ('surf_bbb', 3, 3500, 1, 1, 1),
