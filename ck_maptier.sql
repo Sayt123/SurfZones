@@ -9,10 +9,7 @@ CREATE TABLE `ck_maptier` (
 ) DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `gravityfix`, `ranked`) VALUES
-('5stagesurf', 2, 3500, 0, 1, 1),
-('crajjie', 1, 3500, 0, 1, 1),
-('damnub2', 1, 3500, 0, 1, 1),
-('dogs', 1, 3500, 0, 1, 1),
+
 ('ld_surf', 2, 3500, 0, 1, 1),
 ('lolz', 1, 3500, 0, 1, 1),
 ('newmap', 1, 3500, 0, 1, 1),
@@ -282,6 +279,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_cosmo', 3, 3500, 0, 1, 1),
 ('surf_crackdesert', 2, 3500, 0, 1, 1),
 ('surf_crackdesert_evo2', 3, 3500, 0, 1, 1),
+('surf_crajjie', 1, 3500, 0, 1, 1),
 ('surf_creation', 3, 3500, 1, 1, 1),
 ('surf_crownroyal', 2, 3500, 0, 1, 1),
 ('surf_crush', 5, 3500, 1, 1, 1),
@@ -299,6 +297,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_cyka', 3, 3500, 0, 0, 1),
 ('surf_cyka_ksf', 3, 3500, 1, 1, 1),
 ('surf_damn', 5, 3500, 1, 1, 1),
+('surf_damnub2', 1, 3500, 0, 1, 1),
 ('surf_dank', 2, 3500, 1, 1, 1),
 ('surf_dark_v1', 1, 3500, 0, 1, 1),
 ('surf_deadline', 2, 3500, 0, 1, 1),
@@ -345,6 +344,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_distraction_v2', 3, 3500, 1, 1, 1),
 ('surf_diverge', 3, 3500, 1, 1, 1),
 ('surf_divided_nsf', 4, 3500, 1, 1, 1),
+('surf_dogs', 1, 3500, 0, 1, 1),
 ('surf_domain', 2, 3500, 1, 1, 1),
 ('surf_doodles_njv', 3, 3500, 1, 1, 1),
 ('surf_dova', 5, 3500, 1, 1, 1),
