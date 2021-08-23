@@ -610,6 +610,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_hoy', 1, 3500, 0, 1, 1),
 ('surf_hoy_crazyideas', 3, 3500, 0, 1, 1),
 ('surf_hoy_someideas', 1, 3500, 0, 1, 1),
+('surf_huh', 3, 3500, 0, 1, 1),
 ('surf_huntworking', 2, 3500, 0, 1, 1),
 ('surf_hunty', 4, 3500, 0, 1, 1),
 ('surf_hurrr', 2, 3500, 1, 1, 1),
