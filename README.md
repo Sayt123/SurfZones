@@ -1,5 +1,5 @@
 # Project Description
-Large and ongoing archival project of sorts to zone more or less all available CSGO Skillsurf maps for use with Surftimer-Official, post-285. This is a personal project but I felt it would be worth sharing publically. I've tested on [Qawery-Just-Sad's fork](https://github.com/qawery-just-sad/Surftimer-Official), [Sarrus1's fork](https://github.com/Sarrus1/Surftimer-Official), and the [base surftimer](https://github.com/surftimer/Surftimer-Official).
+Large and ongoing archival project of sorts to zone more or less all available CSGO Skillsurf maps for use with Surftimer-Official, post-285. This is a personal project but I felt it would be worth sharing publically. Branch differences matter. Main is built around surftimer-official, where as my personal list is built around Just-Sad's fork.
 
 Stripper files are based off of [Kyle3Boi's configs for Demented Gaming](https://github.com/Kyli3Boi/Surftimer-Official-Stripper-Config) and as I learn more about stripper I'll be adding my own configs or any donated. 
 
