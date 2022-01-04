@@ -6,8 +6,9 @@ Stripper files are based off of [Kyle3Boi's configs for Demented Gaming](https:/
 See an incorrect tier? Wrong Maxvelocity? Have you noticed a broken zone while using my tier/zone sql? Feel free to message me on discord **Sayt#0621**. A lot of the workshop maps with no information were tiered based off personal “feel” after surfing and observing each map. Criticism and help in correcting information is always appreciated. If you happen to have a map that works/loads that you do not see listed in my zones here, please contact me.
 
 
-To use:
+## To use:
 If using PHPmyadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
+
 
 ------------------------------------------------------------------------
 Thanks to:
