@@ -5,7 +5,8 @@ CREATE TABLE `ck_maptier` (
   `maxvelocity` float NOT NULL DEFAULT '3500',
   `announcerecord` int(11) NOT NULL DEFAULT '0',
   `gravityfix` int(11) NOT NULL DEFAULT '1',
-  `ranked` int(11) NOT NULL DEFAULT '1'
+  `ranked` int(11) NOT NULL DEFAULT '1',
+   `mapper` varchar(32) DEFAULT 'N/A'
 ) DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `gravityfix`, `ranked`, `mapper`) VALUES
@@ -82,7 +83,9 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_anything', 3, 3500, 1, 1, 1, 'Phurix'),
 ('surf_anzchamps', 2, 3500, 0, 1, 1, 'Hardex'),
 ('surf_ape3', 2, 3500, 0, 1, 1, 'N/A'),
+('surf_aphelion', 5, 3500, 0, 1, 1, 'Housegamer')
 ('surf_apollonian', 4, 3500, 1, 1, 1, 'Collaboration'),
+('surf_apollo', 1, 10000, 0, 1, 1, 'ApeXe'),
 ('surf_aquaflow', 2, 3500, 0, 1, 1, 'NvC_DmN_CH'),
 ('surf_aqua_fix', 2, 3500, 1, 1, 1, 'xRyanNitro'),
 ('surf_arcade', 2, 3500, 0, 1, 1, 'maz'),
@@ -259,6 +262,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_corruption', 8, 3500, 1, 1, 1, 'Oli'),
 ('surf_cosmic', 3, 3500, 0, 1, 1, 'TheCosmicWolf'),
 ('surf_cosmo', 3, 3500, 0, 1, 1, 'Rathe'),
+('surf_cosmo_workshop', 3, 3500, 0, 1, 1, 'Storzenbecher'),
 ('surf_cozy', 4, 3500, 0, 1, 1, 'Mr. Cow'),
 ('surf_crackdesert_evo2', 3, 3500, 0, 1, 1, 'Housegamer'),
 ('surf_crajjie', 1, 3500, 0, 1, 1, 'N/A'),
@@ -421,6 +425,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_finesse_final', 4, 3500, 0, 1, 1, 'Collaboration'),
 ('surf_fire_eye', 4, 3500, 0, 1, 1, 'Recoil'),
 ('surf_first', 1, 3500, 0, 1, 1, 'Wiuuuh'),
+('surf_fish_njv', 1, 3500, 0, 1, 1, 'GamÂ£m0nKÂ£Y'),
 ('surf_flamingo', 2, 3500, 1, 1, 1, 'I_ken'),
 ('surf_flappybird', 5, 3500, 0, 0, 1, 'SyFo'),
 ('surf_flatliners', 3, 3500, 1, 1, 1, 'Aux'),
@@ -644,6 +649,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_kalium', 5, 3500, 0, 1, 1, 'N/A'),
 ('surf_katyna_a', 3, 3500, 0, 1, 1, 'N/A'),
 ('surf_kawaii', 3, 3500, 1, 1, 1, 'N/A'),
+('surf_kepler', 1, 3500, 0, 1, 1, 'FriendlyChemist'),
 ('surf_kinetic', 4, 3500, 0, 1, 1, 'N/A'),
 ('surf_kingdom_v1', 1, 3500, 0, 1, 1, 'N/A'),
 ('surf_kinshi', 2, 3500, 0, 1, 1, 'N/A'),
@@ -1329,6 +1335,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_windrunner_final', 1, 3500, 0, 1, 1, 'Aust.Mon'),
 ('surf_wisdom', 3, 3500, 0, 1, 1, 'Watti'),
 ('surf_wizard', 3, 3500, 1, 1, 1, 'Biji'),
+('surf_wolf_final', 1, 3500, 0, 1, 1, 'Thebman8794'),
 ('surf_woo', 1, 3500, 0, 1, 1, 'N/A'),
 ('surf_woodhouse', 1, 3500, 0, 1, 1, 'Wingshot'),
 ('surf_woodspec', 1, 3500, 0, 1, 1, 'Noxid'),
@@ -1352,6 +1359,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_zealand', 2, 3500, 1, 1, 1, 'XBMANN'),
 ('surf_zeitgeist', 3, 3500, 0, 1, 1, 'Spy Complex'),
 ('surf_zen', 6, 3500, 0, 1, 1, 'mr.25'),
+('surf_zen2', 6, 3500, 0, 1, 1, 'mr.25'),
 ('surf_zenith', 2, 3500, 0, 1, 1, 'N/A'),
 ('surf_zen_fix', 6, 3500, 1, 1, 1, 'mr.25'),
 ('surf_zeonine_fix', 4, 3500, 0, 1, 1, 'Collaboration'),
