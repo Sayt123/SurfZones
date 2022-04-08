@@ -35,7 +35,6 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_abyss_fix', 4, 3500, 1, 1, 1, 'Ninjaplz'),
 ('surf_acedia', 5, 3500, 0, 1, 1, 'Seynethic'),
 ('surf_acerbus', 6, 3500, 1, 1, 1, 'RazerSurf'),
-('surf_ace_fix', 2, 3500, 1, 1, 1, 'Juxtapo'),
 ('surf_acp_fix', 3, 3500, 1, 1, 1, 'Panzer'),
 ('surf_activation', 2, 10000, 1, 1, 1, 'iNooVa & biji'),
 ('surf_adrs', 2, 3500, 0, 1, 1, 'mr.aNa'),
