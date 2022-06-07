@@ -7,6 +7,12 @@ Stripper files are based off of [Kyle3Boi's configs for Demented Gaming](https:/
 ## To use:
 If using PHPmyadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
 
+Files are now availabe 3 ways!
+- Individual files sorted Alphabetically to pick from.
+- Individual files sorted by difficulty Tier to pick from.
+- Full wipe files, which DESTRUCTIVELY replace your table with the complete list of maps.
+
+
 ------------------------------------------------------------------------
 ## How you can help:
 
