@@ -3,14 +3,18 @@ Large and ongoing archival project of sorts to zone more or less all available C
 
 Stripper files are based off of [Kyle3Boi's configs for Demented Gaming](https://github.com/Kyli3Boi/Surftimer-Official-Stripper-Config) and as I learn more about stripper I'll be adding my own configs or any donated. 
 
+Provided is a CSV file to compare MD5 hash and filesize against my personal map the zones are based on to confirm they are the same.
+
+There is an OpenDocument spreadsheet containing just the mapnames, tiers, and mapper credit information, for those looking for that info without needing SQL files/zones.
+
 
 ## To use:
 If using PHPmyadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
 
 Files are now availabe 3 ways!
-- Individual files sorted Alphabetically to pick from.
-- Individual files sorted by difficulty Tier to pick from.
-- Full wipe files, which DESTRUCTIVELY replace your table with the complete list of maps.
+	- Individual files sorted Alphabetically to pick from.
+	- Individual files sorted by difficulty Tier to pick from.
+	- Full wipe files, which DESTRUCTIVELY replace your table with the complete list of maps.
 
 
 ------------------------------------------------------------------------
@@ -25,4 +29,5 @@ Workshop maps with no information were tiered based off personal opinion after t
 ------------------------------------------------------------------------
 Thanks to:
 
+All map creators of course, without which there would be no project to work on. From completed, to abandoned scraps, I think all map projects released should be preserved.
 All developers and contributers to surftimer and all creators of previous zones and stripper files this collection was built upon. Also thanks to Kotton for donating his zones and tier list which has been merged as of 5/11/21. 
