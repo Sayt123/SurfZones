@@ -1,0 +1,26 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_forgotten_fix';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_forgotten_fix','Start 0','map_start','player',0,1,0,-5504.46,1343.61,7616.03,-6239.97,-1343.46,7696.22,0,0,0,1,350),
+('surf_forgotten_fix','Start 0','map_end','player',1,2,0,12191,-2273,-5089,15489,2273,-3487,0,0,0,1,350),
+('surf_forgotten_fix','bonus 1','b1_start','player',2,1,1,4831,-161,4575,5185,161,4801,0,0,1,1,350),
+('surf_forgotten_fix','bonus 1','b1_end','player',3,2,1,-4704.1,191.943,5920.03,-5055.97,-191.616,6143.89,0,0,1,1,350),
+('surf_forgotten_fix','bonus 2','b2_start','player',4,1,1,-513,-993,-3073,1217,993,-2335,0,0,2,1,350),
+('surf_forgotten_fix','bonus 2','b2_end','player',5,2,1,8191,2655,-6017,8577,3521,-5791,0,0,2,1,350),
+('surf_forgotten_fix','bonus 2','sm_ckZoneHooked 5','player',6,2,1,8191,-3521,-6017,8577,-2655,-5791,0,0,2,1,350),
+('surf_forgotten_fix','bonus 3','b3_start','player',7,1,1,-1793,-65,-3873,-1647,65,-3583,0,0,3,1,350),
+('surf_forgotten_fix','bonus 3','b3_end','player',8,2,1,191,2047,-4801,1217,4065,-3935,0,0,3,1,350),
+('surf_forgotten_fix','bonus 3','sm_ckZoneHooked 8','player',9,2,1,191,-4065,-4801,1217,-2047,-3935,0,0,3,1,350),
+('surf_forgotten_fix','bonus 4','b4_start','player',10,1,1,4319,-1313,-161,5505,1313,193,0,0,4,1,350),
+('surf_forgotten_fix','bonus 4','b4_end','player',11,2,1,-3137,-3009,2943,-2495,-2175,3617,0,0,4,1,350),
+('surf_forgotten_fix','bonus 4','sm_ckZoneHooked 11','player',12,2,1,-3137,2175,2943,-2495,3009,3617,0,0,4,1,350),
+('surf_forgotten_fix','bonus 5','b5_start','player',13,1,1,8447,-209,-3841,8833,209,-3487,0,0,5,1,350),
+('surf_forgotten_fix','bonus 5','b5_end','player',14,2,1,-9313,-545,-4385,-8735,545,-4127,0,0,5,1,350),
+('surf_forgotten_fix','bonus 6','b6_start','player',15,1,1,-8737,-193,-3937,-8255,193,-3711,0,0,6,1,350),
+('surf_forgotten_fix','bonus 6','b6_end','player',16,2,1,15871,-33,-3329,16129,33,-3103,0,0,6,1,350),
+('surf_forgotten_fix','Start 0','None','player',17,0,0,-6239.97,1343.42,7616.9,-8671.97,-1343.46,8956.99,0,0,0,1,250),
+('surf_forgotten_fix','Start 0','None','player',18,4,0,10070,3913.14,480.24,10057.9,-3875.4,3615.97,0,0,0,1,250),
+('surf_forgotten_fix','Start 0','None','player',19,4,1,-6271.65,2656.42,-959.969,-4927.8,-2655.97,1536.08,0,0,0,1,250),
+('surf_forgotten_fix','Start 0','None','player',20,4,2,8511.13,3839.97,-2943.51,8449.75,-3839.97,-2080.96,0,0,0,1,250),
+('surf_forgotten_fix','Start 0','None','player',21,4,3,-14204.1,-2719.68,-4799.97,-14207.8,2719.97,-1920.06,0,0,0,1,250),
+('surf_forgotten_fix','Start 0','None','player',22,4,4,-255.504,3999.97,-5631.61,-191.761,-3999.97,-5119.82,0,0,0,1,250);

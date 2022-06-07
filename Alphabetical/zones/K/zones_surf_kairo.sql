@@ -1,0 +1,25 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_kairo';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_kairo','Start 0','map_start_zone','player',0,1,0,3439,-4065,14815,4145,-3039,15425,0,0,0,0,260),
+('surf_kairo','Start 0','map_end_zone','player',1,2,0,4080,7648,-5537,6896,8481,-4639,0,0,0,0,260),
+('surf_kairo','bonus 1','b1_start_zone','player',2,1,1,2463,1071,-8529,4193,1713,-8047,0,0,1,0,260),
+('surf_kairo','bonus 1','b1_end_zone','player',3,2,1,9167,-15057,-14993,10590.6,-13633.4,-14463,0,0,1,0,260),
+('surf_kairo','bonus 2','b2_start_zone','player',4,1,1,13919,31,31,15297,481,545,0,0,2,0,260),
+('surf_kairo','bonus 2','b2_end_zone','player',5,2,1,12703,7072,-2593,13793,7777,-2399,0,0,2,0,260),
+('surf_kairo','bonus 3','b3_start_zone','player',6,1,1,-11969,1167,5455,-11455,1953,5761,0,0,3,0,260),
+('surf_kairo','bonus 3','b3_end_zone','player',7,2,1,-3905,-4081,3167,-3599,-3055,4081,0,0,3,0,260),
+('surf_kairo','bonus 4','b4_start_zone','player',8,1,1,3183,1695,-193,3569,2209,241,0,0,4,0,260),
+('surf_kairo','bonus 4','b4_end_zone','player',9,2,1,2543,-737,-97,2800,-464,161,0,0,4,0,260),
+('surf_kairo','bonus 5','b5_start_zone','player',10,1,1,-9889,-7361,2111,-8799,-6847,2817,0,0,5,0,260),
+('surf_kairo','bonus 5','b5_end_zone','player',11,2,1,-11137,13311,-5633,-7551,14657,-4863,0,0,5,0,260),
+('surf_kairo','bonus 6','b6_start_zone','player',12,1,1,3871,12175,5999,4385,13009,6401,0,0,6,0,260),
+('surf_kairo','bonus 6','b6_end_zone','player',13,2,1,-417,11887,735,33,13329,1041,0,0,6,0,260),
+('surf_kairo','Start 0','None','player',14,4,0,7409.77,6885.41,13600,8430.93,6937.6,12000,0,0,0,1,250),
+('surf_kairo','Start 0','None','player',15,4,1,1136.03,4257.88,12959.2,2285.97,4645.73,11104,0,0,0,1,250),
+('surf_kairo','Start 0','None','player',16,4,2,6267.96,-7135.97,12892.5,6756.08,-6116.68,11424,0,0,0,1,250),
+('surf_kairo','Start 0','None','player',17,4,3,5619.15,13792,10973.7,5370.68,12757.4,9576.48,0,0,0,1,250),
+('surf_kairo','Start 0','None','player',18,4,4,-2064.03,-6012.25,10463.3,-2575.35,-6166.05,10144,0,0,0,1,250),
+('surf_kairo','Start 0','None','player',19,4,5,-5967.97,9580.03,11928.8,-4560.03,10442.9,9512.4,0,0,0,1,250),
+('surf_kairo','Start 0','None','player',20,4,6,-10502.2,1304.02,10528,-9360.5,1064.75,9376.03,0,0,0,1,250),
+('surf_kairo','Start 0','None','player',21,4,7,4984.99,-6879.97,7711.56,4696.59,-6368.66,7200.03,0,0,0,1,250);

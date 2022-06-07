@@ -1,0 +1,26 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_aura';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_aura','Start 0','zone_startzone','player',0,1,0,-15713,14751,959,-15327,15521,1089,0,0,0,1,350),
+('surf_aura','Start 0','zone_s2','player',1,3,0,-6881,15071,959,-6495,15841,1089,0,0,0,1,350),
+('surf_aura','Start 0','zone_s3','player',2,3,1,-15873,12415.1,959,-15487,13184.9,1089,0,0,0,1,350),
+('surf_aura','Start 0','zone_s4','player',3,3,2,63,12895.2,959,449,13665,1089,0,0,0,1,350),
+('surf_aura','Start 0','zone_s5','player',4,3,3,-13121,4863.2,959,-12735,5633,1089,0,0,0,1,350),
+('surf_aura','Start 0','zone_s6','player',5,3,4,-15745,2431.2,943,-15359,3201,1073,0,0,0,1,350),
+('surf_aura','Start 0','zone_endzone','player',6,2,0,4607,511,-3393,5505,2049,-3327,0,0,0,1,350),
+('surf_aura','bonus 1','zone_b1_startzone','player',7,1,1,-15457,9583,7,-15071,10353,137,0,0,1,1,350),
+('surf_aura','bonus 1','zone_b1_endzone','player',8,2,1,-8273,9583,7,-7887,10353,257,0,0,1,1,350),
+('surf_aura','bonus 2','zone_b2_startzone','player',9,1,1,7839,-5537,831,8609,-5151,961,0,0,2,1,350),
+('surf_aura','bonus 2','zone_b2_endzone','player',10,2,1,7839,-8545,-1,8609,-8159,257,0,0,2,1,350),
+('surf_aura','bonus 3','zone_b3_startzone','player',11,1,1,-16001,-12465,543,-15615,-11695,673,0,0,3,1,350),
+('surf_aura','bonus 3','zone_b3_endzone','player',12,2,1,-1537,-12465,-1201,-1151,-11695,-943,0,0,3,1,350),
+('surf_aura','bonus 4','zone_b4_startzone','player',13,1,1,11951,-4769,943,12721,-4383,1073,0,0,4,1,350),
+('surf_aura','bonus 4','zone_b4_endzone','player',14,2,1,11951,15647,351,12721,16033,609,0,0,4,1,350),
+('surf_aura','bonus 5','zone_b5_startzone','player',15,1,1,3967,-6305,-8673,5761,-5855,-8543,0,0,5,1,350),
+('surf_aura','bonus 5','zone_b5_endzone','player',16,2,1,-2305,8543,-11681,-1791,10593,-11359,0,0,5,1,350),
+('surf_aura','bonus 6','zone_b6_startzone','player',17,1,1,-9361,4191,-4177,-8847,5729,-4047,0,0,6,1,350),
+('surf_aura','bonus 6','zone_b6_endzone','player',18,2,1,-15489,583,-13481,-14223,969,-13231,0,0,6,1,350),
+('surf_aura','bonus 7','zone_b7_startzone','player',19,1,1,-10593,-9761,-4049,-10079,-8223,-3919,0,0,7,1,350),
+('surf_aura','bonus 7','zone_b7_endzone','player',20,2,1,-14081,-9297,-16305,-13471,-8687,-16175,0,0,7,1,350),
+('surf_aura','bonus 8','zone_b8_startzone','player',21,1,1,-6833,-1329,-5841,-6303,-815,-5711,0,0,8,1,350),
+('surf_aura','bonus 8','zone_b8_endzone','player',22,2,1,-7593,-3897,-13713,-5271,-1575,-13391,0,0,8,1,350);

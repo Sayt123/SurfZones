@@ -1,0 +1,25 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_cement';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_cement','Start 0','stage1startzone','player',0,1,0,-6657,12287,13311,-5631,13313,14081,0,0,0,0,260),
+('surf_cement','Start 0','stage2startzone','player',1,3,0,3583,7423,14335,4609,8961,14849,0,0,0,0,260),
+('surf_cement','Start 0','stage3startzone','player',2,3,1,-14785,10495,5631,-13823,11521,6081,0,0,0,0,260),
+('surf_cement','Start 0','stage4startzone','player',3,3,2,1599,2303,7167,2561,2817,7617,0,0,0,0,260),
+('surf_cement','Start 0','stage5startzone','player',4,3,3,-769,2303,-769,129,3841,-255,0,0,0,0,260),
+('surf_cement','Start 0','stage6startzone','player',5,3,4,-14849,10751,-513,-13759,11777,-63,0,0,0,0,260),
+('surf_cement','Start 0','mapendzone','player',6,2,0,899,10239,-7169,1793,12289,-6527,0,0,0,0,260),
+('surf_cement','bonus 1','gran_stage_startzone','player',7,1,1,-14593,-7681,13823,-14079,-6655,14049,0,0,1,0,260),
+('surf_cement','bonus 1','None','player',8,2,0,6398.11,-4991.97,9024.17,5376.03,-2190.39,9272.72,0,0,1,1,250),
+('surf_cement','bonus 1','None','player',9,2,1,6397.54,-12160,9024.72,5376.03,-9348.31,9444.06,0,0,1,1,250),
+('surf_cement','bonus 2','gran_bonus_startzone','player',10,1,1,4863,-4033,9215,5377,-3135,9537,0,0,2,0,260),
+('surf_cement','bonus 2','gran_bonus_endzone','player',11,2,1,-12545,-7425,13055,-12031,-6911,13313,0,0,2,0,260),
+('surf_cement','bonus 3','fatbonusstartzone','player',12,1,1,9855,-4929,6398.47,10625,-4095,6721,0,0,3,0,260),
+('surf_cement','bonus 4','inoovabonusstartzone','player',13,1,1,-8513,-14529,6015,-7743,-13887,6401,0,0,4,0,260),
+('surf_cement','bonus 4','inoovabonusendzone','player',14,2,1,-10049,-8321,4287,-6207,-7683,5953,0,0,4,0,260),
+('surf_cement','bonus 5','None','player',15,1,0,11712.8,-12288,-11775.3,11941.5,-11586.8,-11492.5,0,0,5,1,250),
+('surf_cement','bonus 5','None','player',16,2,0,11488.1,-11456,-15040.1,11104.7,-12416,-15035.3,0,0,5,1,250),
+('surf_cement','bonus 6','eichbonusstartzone','player',17,1,1,-13281,12031,-513,-12735,12577,-31,0,0,6,0,260),
+('surf_cement','bonus 6','eichbonusendzone','player',18,2,1,-13825,9727,-2753,-13313,12801,-2367,0,0,6,0,260),
+('surf_cement','bonus 7','bhopbonusstartzone','player',19,1,1,-7937,-14561,-13185,-5887,-13567,-12543,0,0,7,0,260),
+('surf_cement','bonus 7','bhopbonusendzone','player',20,2,1,-8193,7807,-13825,-5631,8705,-13791,0,0,7,0,260),
+('surf_cement','bonus 3','fatbonusendzone','player',21,2,1,8895,-12161,5743,11585,-11623,6273,0,0,3,0,260);

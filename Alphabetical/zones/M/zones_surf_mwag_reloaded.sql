@@ -1,0 +1,28 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_mwag_reloaded';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_mwag_reloaded','Start 0','map_startzone','player',0,1,0,13151,-14305,-8913,13953,-12303,-8591,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s2_startzone','player',1,3,0,-513,3007,6559,-319,4385,6777,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s3_startzone','player',2,3,1,-11169,9887,7455,-10591,11521,7713,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s4_startzone','player',3,3,2,-8513,-337,1471,-7967,145,1689,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s5_startzone','player',4,3,3,-1345,-4705,-2881,-767,-1887,-2663,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s6_startzone','player',5,3,4,-4481,13183,15743,-4095,13569,15961,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s7_startzone','player',6,3,5,959,11231,15743,1345,11745,15985,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s8_startzone','player',7,3,6,-4353,6143,11135,-3967,6657,11377,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s9_startzone','player',8,3,7,895,14335,11647,1153,15105,11865,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s10_startzone','player',9,3,8,11263,11007,13823,11777,11521,14209,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s11_startzone','player',10,3,9,6655,3327,15487,8065,4609,15713,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s12_startzone','player',11,3,10,7551,1279,10111,8057,1793,10353,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s13_startzone','player',12,3,11,7423,12671,-641,7809,13953,-415,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','s14_startzone','player',13,3,12,-8449,-14977,-6913,-7807,-14591,-6695,0,0,0,0,260),
+('surf_mwag_reloaded','Start 0','None','player',14,2,0,-14072.5,-8446.58,-8447.97,-13921.3,-8192.03,-8193.16,0,0,0,1,250),
+('surf_mwag_reloaded','bonus 1','b1_startzone','player',15,1,1,8575,-2305,6207,8961,-1663,6321,0,0,1,0,260),
+('surf_mwag_reloaded','bonus 1','b1_endzone','player',16,2,1,9727,-257,6079,10113,1,6241,0,0,1,0,260),
+('surf_mwag_reloaded','bonus 2','b2_startzone','player',17,1,1,3327,13567,6399,3585,13825,6497,0,0,2,0,260),
+('surf_mwag_reloaded','bonus 2','b2_endzone','player',18,2,1,1663,13183,2687,2305,13825,2881,0,0,2,0,260),
+('surf_mwag_reloaded','bonus 3','b3_startzone','player',19,1,1,8831,5887,863,9345,6401,1121,0,0,3,0,260),
+('surf_mwag_reloaded','bonus 3','b3_endzone','player',20,2,1,10879,2303,511,11713,4609,721,0,0,3,0,260),
+('surf_mwag_reloaded','bonus 4','b4_startzone','player',21,1,1,3583,-8801,383,5121,-8479,593,0,0,4,0,260),
+('surf_mwag_reloaded','bonus 4','b4_endzone','player',22,2,1,2943,-7071,-1665,3329,-6687,-1535,0,0,4,0,260),
+('surf_mwag_reloaded','bonus 5','b5_startzone','player',23,1,1,8575,-7041,-9025,9089,-6271,-8943,0,0,5,0,260),
+('surf_mwag_reloaded','bonus 5','b5_endzone','player',24,2,1,15103,-6753,-9153,15233,-6623,-9023,0,0,5,0,260);

@@ -1,0 +1,25 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_simpsons_go_rc2';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_simpsons_go_rc2','Start 0','None','player',0,3,7,1504.03,-9407.97,-303.969,-32.0312,-10432,-383.969,0,0,0,0,260),
+('surf_simpsons_go_rc2','Start 0','None','player',1,3,8,-9536.03,-7743.97,1360.03,-11072,-8703.97,1280.03,0,0,0,0,260),
+('surf_simpsons_go_rc2','Start 0','None','player',2,3,5,12288,-7231.97,-431.969,10752,-8000.03,-511.969,0,0,0,0,260),
+('surf_simpsons_go_rc2','Start 0','None','player',3,3,4,6912.03,-13184,224.031,5375.97,-14208,144.031,0,0,0,0,260),
+('surf_simpsons_go_rc2','Start 0','None','player',4,3,3,-10432,960.031,80.0312,-11968,-64.0312,0.03125,0,0,0,0,260),
+('surf_simpsons_go_rc2','Start 0','None','player',5,3,2,192.031,3679.71,16.0312,-1344.03,2911.97,-63.9688,0,0,0,0,260),
+('surf_simpsons_go_rc2','Start 0','None','player',6,3,1,-5504.03,7051.64,-399.969,-6527.97,6268.03,-479.969,0,0,0,0,260),
+('surf_simpsons_go_rc2','Start 0','None','player',7,3,6,-3775.97,-2751.97,-623.969,-5312.03,-3776.03,-703.969,0,0,0,0,260),
+('surf_simpsons_go_rc2','Start 0','None','player',8,1,1,5423.99,4543.61,-193.969,3923.8,4172.25,-91.9688,0,0,0,0,260),
+('surf_simpsons_go_rc2','Start 0','None','player',9,2,1,-4834.49,-9191.98,-1793.97,-4120.03,-8720.03,-1675.97,0,0,0,0,260),
+('surf_simpsons_go_rc2','Start 0','None','player',10,3,0,6512.26,-4304.03,-1409.97,5825.17,-4945.4,-1307.97,0,0,0,0,260),
+('surf_simpsons_go_rc2','bonus 1','None','player',11,1,0,-8769.32,10814,-1919.97,-10176,8770.07,-1802.2,0,0,1,0,260),
+('surf_simpsons_go_rc2','bonus 1','None','player',12,2,0,-11836.8,8773.08,128.031,-11328,10815.2,385.329,0,0,1,0,260),
+('surf_simpsons_go_rc2','bonus 2','None','player',13,1,0,10431,6343.97,-1855.14,10128.5,5960.03,-1615.22,0,0,2,1,250),
+('surf_simpsons_go_rc2','bonus 2','None','player',14,2,0,10560,7753.45,-1855.35,10782,7879.97,-1653.44,0,0,2,1,250),
+('surf_simpsons_go_rc2','bonus 3','None','player',15,1,0,-864.031,12028.4,-1826.06,-608.031,12544.8,-1570.72,0,0,3,1,250),
+('surf_simpsons_go_rc2','bonus 3','None','player',16,2,0,136.806,12332,-927.969,162.946,12401,-864.739,0,0,3,1,250),
+('surf_simpsons_go_rc2','bonus 3','None','player',17,2,1,219.289,12468.4,-877.969,86.6602,12333.5,-927.969,0,0,3,1,250),
+('surf_simpsons_go_rc2','bonus 4','None','player',18,1,0,-9279.97,-13612.1,-519.846,-8864.84,-13415.8,-608.969,0,0,4,1,250),
+('surf_simpsons_go_rc2','bonus 4','None','player',19,2,0,1832.78,-13280.4,576.031,1951.97,-13407.8,829.331,0,0,4,1,250),
+('surf_simpsons_go_rc2','bonus 5','None','player',20,1,0,8839.01,2758.38,-1669.97,8760.99,2681.62,-1719.97,0,0,5,1,250),
+('surf_simpsons_go_rc2','bonus 5','None','player',21,2,0,10925.5,3544.08,-1537.12,10991.8,3579.61,-1600.16,0,0,5,1,250);

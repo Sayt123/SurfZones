@@ -1,0 +1,26 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_zeitgeist';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_zeitgeist','Start 0','None','player',0,1,0,-11520.1,255.899,12640,-11904,-255.13,12815.6,0,0,0,1,250),
+('surf_zeitgeist','Start 0','s2','player',1,3,0,-1473,-257,12191,-1087,257,12609,0,0,0,1,350),
+('surf_zeitgeist','Start 0','s3','player',2,3,1,6831,-257,12447,7249,257,12929,0,0,0,1,350),
+('surf_zeitgeist','Start 0','s4','player',3,3,2,-11633,-257,8431,-11247,257,8721,0,0,0,1,350),
+('surf_zeitgeist','Start 0','s5','player',4,3,3,-2593,-257,8063,-2207,257,8401,0,0,0,1,350),
+('surf_zeitgeist','Start 0','s6','player',5,3,4,7967,-257,7455,8353,257,7825,0,0,0,1,350),
+('surf_zeitgeist','Start 0','s7','player',6,3,5,-11841,-897,2559,-11455,897,2913,0,0,0,1,350),
+('surf_zeitgeist','Start 0','s8','player',7,3,6,-2001,-193,2415,-1615,193,2945,0,0,0,1,350),
+('surf_zeitgeist','Start 0','s9','player',8,3,7,7711,-385,111,8097,385,449,0,0,0,1,350),
+('surf_zeitgeist','Start 0','s10','player',9,3,8,-10817,-257,-2369,-10431,257,-2047,0,0,0,1,350),
+('surf_zeitgeist','Start 0','s11','player',10,3,9,-1057,-257,-3073,-671,257,-2783,0,0,0,1,350),
+('surf_zeitgeist','Start 0','s12','player',11,3,10,6623,-593,-2193,7009,593,-1903,0,0,0,1,350),
+('surf_zeitgeist','Start 0','map_end','player',12,2,0,11987,-641,-4577,12273,641,-3887,0,0,0,1,350),
+('surf_zeitgeist','bonus 1','doritob_start','player',13,1,1,-11569,-417,-9465,-11167,417,-9143,0,0,1,1,350),
+('surf_zeitgeist','bonus 1','doritob_end','player',14,2,1,-6399,-321,-11897,-5887,321,-11511,0,0,1,1,350),
+('surf_zeitgeist','bonus 2','spyboner_start','player',15,1,1,9471,-5889,-8721,9825,-5375,-8399,0,0,2,1,350),
+('surf_zeitgeist','bonus 2','spyboner_end','player',16,2,1,14097,-5887,-11705,14337,-5377,-11295,0,0,2,1,350),
+('surf_zeitgeist','bonus 3','plankage_start','player',17,1,1,-385,6431,-8705,65,6881,-8319,0,0,3,1,350),
+('surf_zeitgeist','bonus 3','plankage_end','player',18,2,1,2449,9903,-12945,2751,10079,-12687,0,0,3,1,350),
+('surf_zeitgeist','bonus 4','samb_start','player',19,1,1,3375,2783,-7661,3729,3297,-7435,0,0,4,1,350),
+('surf_zeitgeist','bonus 4','samb_end','player',20,2,1,4431,2737,-9485,4703,3343,-8619,0,0,4,1,350),
+('surf_zeitgeist','Start 0','None','player',21,7,0,-7120.03,-295.964,1047.7,-7591.53,295.969,1016.42,0,0,0,1,0),
+('surf_zeitgeist','Start 0','None','player',22,8,0,-6531.44,284.37,992.031,-6096.03,-286.983,1459.17,0,0,0,1,0);

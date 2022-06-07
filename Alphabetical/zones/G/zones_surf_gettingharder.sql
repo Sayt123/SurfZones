@@ -1,0 +1,25 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_gettingharder';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_gettingharder','Start 0','None','player',0,3,8,-2560.63,15936.2,3520.03,-3327.97,16126.6,3584.26,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',1,3,9,-1280.26,15936.3,3520.03,-2047.97,16126.2,3583.68,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',2,3,10,-0.174979,15936.1,3520.03,-767.969,16125.3,3582.95,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',3,3,11,1279.57,15936.3,3520.03,512.051,16126.3,3583.9,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',4,3,12,2559.71,15936.2,3520.03,1792.03,16126.1,3582.75,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',5,3,13,4095.3,15936.4,3520.03,3328.03,16126.5,3583.68,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',6,3,14,5631.5,15936.3,3520.03,4864.03,16125.9,3583.73,0,1,0,0,260),
+('surf_gettingharder','Start 0','None','player',7,3,15,6911.6,15936.4,3520.03,6144.03,16125.8,3584.31,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',8,3,7,-3840.36,15936.3,3520.03,-4607.97,16126,3583.74,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',9,3,6,-5871.97,16112,3518.03,-5136.03,15934.9,3620.03,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',10,3,16,8191.97,15936.6,3520.12,7424.03,16125.8,3583.27,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',11,1,1,-14080.2,15936.3,3520.03,-14848,16125.8,3583.34,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',12,3,0,-12800.3,15936.3,3520.03,-13568,16126,3584.68,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',13,3,1,-11520.6,15936.3,3520.03,-12287.5,16128,3584.14,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',14,3,2,-10240.4,15936.7,3520.03,-11006.1,16128,3584.35,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',15,3,3,-8960.51,15936.4,3520.03,-9727.97,16125.5,3584.59,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',16,3,4,-7680.29,15936.4,3520.03,-8445.53,16128,3582.97,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',17,3,5,-6400.28,15936.4,3520.03,-7167.97,16126.1,3584.18,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',18,3,17,9471.88,15936.1,3520.03,8704.03,16125.7,3582.63,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',19,3,18,10751.7,15936.3,3520.03,9984.03,16125.7,3583.91,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',20,2,1,11152,48.0312,94.0312,11376,785.648,196.031,0,0,0,0,260),
+('surf_gettingharder','Start 0','None','player',21,2,2,10000,98.6808,1085.74,10736,399.969,1187.74,0,0,0,0,260);

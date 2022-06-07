@@ -1,0 +1,28 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_happyhug';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_happyhug','Start 0','zone_s1_draph','player',0,1,0,13183,11327,15455,15873,11841,15777,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s2_pretzl','player',1,3,0,9439,-8705,-3521,12641,-7935,-3199,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s3_recoil','player',2,3,1,-14305,11967,15423,-13951,12097,15697,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s4_sam','player',3,3,2,2419.99,3283.99,15167,2892.01,3756.01,15449,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s5_sagan','player',4,3,3,-12321,8815,15647,-10847,9617,15969,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s6_hardex','player',5,3,4,-11009,-15041,15615,-10495,-14015,15873,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s7_hesuka','player',6,3,5,10335,8431,15647,10865,9121,15937,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s8_xtra','player',7,3,6,1023,8447,6975,1537,9217,7345,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s9_cow','player',8,3,7,7679,-2849,15455,8193,-1311,15777,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s10_mako','player',9,3,8,15727,6783,15871,16113,7233,16145,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s11_roxy','player',10,3,9,-11713,14559,15615,-11295,14945,15873,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s12_joker','player',11,3,10,-6309,1855,7519,-5699,3905,7809,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s13_sid','player',12,3,11,-2369,11583,15295,-1983,11969,15553,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s14_chris','player',13,3,12,6158.99,-4929,15871,6672.99,-4287,16193,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s15_xen','player',14,3,13,-13153,927,15135,-12639,1441,15457,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_s16_joey','player',15,3,14,-9249,3327,15679,-8607,4609,15969,0,0,0,0,260),
+('surf_happyhug','Start 0','zone_end','player',16,2,0,-1,3647,13743,353,4289,13777,0,0,0,0,260),
+('surf_happyhug','bonus 1','zone_b1_spree','player',17,1,1,-11329,6495,15791,-11007,7009,16065,0,0,1,0,260),
+('surf_happyhug','bonus 1','zone_b1_spree_end','player',18,2,1,-12048,5983,11351,-11679,7585,11697,0,0,1,0,260),
+('surf_happyhug','bonus 2','zone_b2_bart','player',19,1,1,-14849,-10177,15167,-14591,-9919,15457,0,0,2,0,260),
+('surf_happyhug','bonus 2','zone_b2_bart_end','player',20,2,1,13760,-10561,15679,14849,-9023,15937,0,0,2,0,260),
+('surf_happyhug','bonus 3','zone_b3_spy','player',21,1,1,14271,-961,15103,14785,-63,15377,0,0,3,0,260),
+('surf_happyhug','bonus 3','zone_b3_spy_end','player',22,2,1,6496,-961,13279,7089,-63,13745,0,0,3,0,260),
+('surf_happyhug','bonus 4','zone_b4_furry','player',23,1,1,-5857,-10529,11007,-5343,-9503,11265,0,0,4,0,260),
+('surf_happyhug','bonus 4','zone_b4_furry_end','player',24,2,1,3199,-10689,7391,4545,-9343,7457,0,0,4,0,260);

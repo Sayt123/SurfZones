@@ -1,0 +1,25 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_nesquik';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_nesquik','Start 0','start_s1','player',0,1,0,-12144.1,10928.3,-9711.97,-13168,11422.9,-9563.29,0,0,0,0,260),
+('surf_nesquik','Start 0','start_s2','player',1,3,0,-5985,-10865,-737,-5615,-9327,-31,0,0,0,0,260),
+('surf_nesquik','Start 0','start_s3','player',2,3,1,-7537,11247,-2561,-7023,12273,-1855,0,0,0,0,260),
+('surf_nesquik','Start 0','start_s4','player',3,3,2,14607,11823,-9185,15633,13361,-8479,0,0,0,0,260),
+('surf_nesquik','Start 0','start_s5','player',4,3,3,7327,-497,-8065,8865,-47,-7359,0,0,0,0,260),
+('surf_nesquik','Start 0','start_s6','player',5,3,4,4495,9455,31,4993,10481,865,0,0,0,0,260),
+('surf_nesquik','Start 0','end_s6','player',6,2,0,11647,8049,-3073,12801,11887,-1983,0,0,0,0,260),
+('surf_nesquik','bonus 1','start_bS6','player',7,1,1,12799,3567,-1537,13825,4849,-1151,0,0,1,0,260),
+('surf_nesquik','bonus 1','end_bS6','player',8,2,1,8193,7919,-3393,8897,12017,-2823,0,0,1,0,260),
+('surf_nesquik','bonus 2','start_bSync','player',9,1,1,-9217,-3681,-641,-7871,-2655,-127,0,0,2,0,260),
+('surf_nesquik','bonus 2','end_bSync','player',10,2,1,-1823,-4161,-12545,-1311,-1759,-11647,0,0,2,0,260),
+('surf_nesquik','bonus 3','start_bAndru','player',11,1,1,575,-15697,-7841,1025,-14159,-7135,0,0,3,0,260),
+('surf_nesquik','bonus 3','end_bAndru','player',12,2,1,-16193,-15889,-15201,-15713,-13327,-14719,0,0,3,0,260),
+('surf_nesquik','bonus 4','start_b4','player',13,1,1,6511,-14097,14127,6929,-13647,14641,0,0,4,0,260),
+('surf_nesquik','bonus 4','end_b4','player',14,2,1,14383,465,14127,16305,1489,14641,0,0,4,0,260),
+('surf_nesquik','bonus 5','start_bSpy','player',15,1,1,-14209,-3385,15135,-13503,-2679,15617,0,0,5,0,260),
+('surf_nesquik','bonus 5','end_bSpy','player',16,2,1,-5055,-3223,2239,-4673,-2841,2561,0,0,5,0,260),
+('surf_nesquik','bonus 6','start_bPat','player',17,1,1,-15985,2127,-13553,-14959,3665,-13039,0,0,6,0,260),
+('surf_nesquik','bonus 6','end_bPat','player',18,2,1,-3423,1617,-14417,-2671,4175,-14031,0,0,6,0,260),
+('surf_nesquik','bonus 6','None','player',19,1,0,-14962,3280.03,-13394.2,-15472,3663.39,-13551.8,0,0,6,1,450),
+('surf_nesquik','bonus 6','None','player',20,2,0,-3419.26,4172.11,-14416,-2737.66,1616.03,-14176,0,0,6,1,450),
+('surf_nesquik','bonus 6','None','player',21,1,1,-14960.7,2511.97,-13386.4,-15467.6,2129.94,-13552,0,0,6,1,450);

@@ -1,0 +1,25 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_slobs';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_slobs','Start 0','stage1','player',0,1,0,4383,-257,-1,4641,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage2','player',1,3,0,-7425,-257,-1,-7167,1,225,0,0,0,1,350),
+('surf_slobs','Start 0','stage3','player',2,3,1,8911,-257,-1,9169,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage4','player',3,3,2,-2561,-257,-1,-2303,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage5','player',4,3,3,11279,4991,-1,11537,5313,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage6','player',5,3,4,-10881,-257,-1,-10623,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage7','player',6,3,5,11279,-321,-1,11537,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage8','player',7,3,6,7423,-257,-1,7681,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage9','player',8,3,7,-129,-257,-1,129,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage10','player',9,3,8,-12417,-257,-1,-12159,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage11','player',10,3,9,-15489,-385,-1,-15231,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage12','player',11,3,10,-15489,2175,-1,-15231,2433,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage13','player',12,3,11,-129,1247,-1,129,1505,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage14','player',13,3,12,2479,-257,-1,2737,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage15','player',14,3,13,1919,5055,-1,2177,5313,209,0,0,0,1,350),
+('surf_slobs','Start 0','stage16','player',15,3,14,14463,-257,-1,14721,1,209,0,0,0,1,350),
+('surf_slobs','Start 0','MapEnd','player',16,2,0,14271,5887,175,14913,6561,513,0,0,0,1,350),
+('surf_slobs','bonus 1','bonus1Start','player',17,1,1,4991,2495,-1377,5249,2753,-1167,0,0,1,1,350),
+('surf_slobs','bonus 1','bonus1End','player',18,2,1,4863,287,-1521,5377,521,-1215,0,0,1,1,350),
+('surf_slobs','bonus 2','bonus2Start','player',19,1,1,-2273,5055,-1,-2015,5313,257,0,0,2,1,350),
+('surf_slobs','bonus 2','bonus2End1','player',20,2,1,831,8191,-1489,1249,8833,-1055,0,0,2,1,350),
+('surf_slobs','bonus 2','bonus2End2','player',21,2,1,-5569,8191,-1489,-5119,8833,-1055,0,0,2,1,350);
