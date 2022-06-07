@@ -1,0 +1,25 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_anubis';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_anubis','Start 0','map_start','player',0,1,0,-129,-129,-81,257,129,129,0,0,0,1,350),
+('surf_anubis','Start 0','map_stage2','player',1,3,0,-129,1023,-81,129,1281,129,0,0,0,1,350),
+('surf_anubis','Start 0','map_stage3','player',2,3,1,-129,-1153,-81,257,-895,129,0,0,0,1,350),
+('surf_anubis','Start 0','map_end','player',3,2,0,1679,-2241,-2881,2321,-1833,-2575,0,0,0,1,350),
+('surf_anubis','bonus 1','bonus1_start','player',4,1,1,-5137,6063,959.006,-4111,6673,1345,0,0,1,1,350),
+('surf_anubis','bonus 1','bonus1_end','player',5,2,1,-5841,6943,-4545,-3407,7049,-4351,0,0,1,1,350),
+('surf_anubis','bonus 2','bonus2_start','player',6,1,1,-65,5791,-2625,449,6817,-2303,0,0,2,1,350),
+('surf_anubis','bonus 2','bonus2_end','player',7,2,1,11713,5215,-2241,11969,6305,-1663,0,0,2,1,350),
+('surf_anubis','bonus 3','bonus3_start','player',8,1,1,-3649,3199,975,-3391,3713,1169,0,0,3,1,350),
+('surf_anubis','bonus 3','bonus3_end','player',9,2,1,-5951,2623,-2417,-5611,4289,-1903,0,0,3,1,350),
+('surf_anubis','bonus 4','bonus4_start','player',10,1,1,4239,3871,-1249,4625,4449,-1039,0,0,4,1,350),
+('surf_anubis','bonus 4','bonus4_end','player',11,2,1,7089,4065,-1672.99,7201,4255,-1455,0,0,4,1,350),
+('surf_anubis','bonus 5','bonus5_start','player',12,1,1,7031,-5153,1583,8377,-4079,1889,0,0,5,1,350),
+('surf_anubis','bonus 5','bonus5_end','player',13,2,1,7321,991,-4049,8087,1375,-3599,0,0,5,1,350),
+('surf_anubis','bonus 6','bonus6_start','player',14,1,1,-256.615,-257.183,-4945,257.386,256.818,-4639,0,0,6,1,350),
+('surf_anubis','bonus 6','bonus6_end','player',15,2,1,-256.613,-257.183,-5409,257.387,256.817,-5103,0,0,6,1,350),
+('surf_anubis','bonus 7','bonus7_start','player',16,1,1,-2305,-1281,-81,-1791,-1023,129,0,0,7,1,350),
+('surf_anubis','bonus 7','bonus7_end','player',17,2,1,-2849,-1537,-2721,-2529,-767,-2447,0,0,7,1,350),
+('surf_anubis','bonus 8','bonus8_start','player',18,1,1,1151,8927,1647,2945,10721,1905,0,0,8,1,350),
+('surf_anubis','bonus 8','bonus8_end','player',19,2,1,2943,9537,-6433,3263,10111,-6159,0,0,8,1,350),
+('surf_anubis','bonus 9','bonus9_start','player',20,1,1,4735,2175,-753,4993,2625,-527,0,0,9,1,350),
+('surf_anubis','bonus 9','bonus9_end','player',21,2,1,4095,1409,-1777,4865,1793,-1231,0,0,9,1,350);

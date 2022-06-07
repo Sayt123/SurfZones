@@ -1,0 +1,28 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_ag_texture_final';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_ag_texture_final','Start 0','None','player',0,1,0,-4437.5,10207.3,12812,-4394.5,9672.1,12712,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',1,2,0,-8855.74,13307.7,11400,-8098.75,12805,11896,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',2,6,0,-4923.8,10396,12401.7,-3907.94,9887.97,12423.5,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',3,6,1,-5122.62,-7165.88,-3842.03,-10236.9,-3074.03,-11005.4,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',4,6,2,-12287.4,12384.4,11520,-10359.5,14312.8,12544,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',5,6,3,-11387.6,-12380.2,2143.47,2558.27,10910.1,2135.85,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',6,6,4,9814.63,-12380.2,-11746.9,-13504.2,10910.1,-11249.3,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',7,6,5,-14932,-6306.14,-2597.58,9821.97,-6380.75,-9428.1,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',8,6,6,1408.03,-7040.81,-1666.13,9821.97,-7007.67,-11558.1,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',9,6,7,1408.03,-7044.14,-1668.48,9821.97,-12156.2,-1682.07,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',10,6,8,1408.03,-12156.5,-1667.5,9821.97,-12112.6,-11536.7,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',11,6,9,-2047.97,-8000.8,-4865.31,1262.07,-12032,-4927.9,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',12,6,10,-2049.96,-10432,-4870.52,-2184.06,-12031.3,-11751,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',13,6,11,-2047.97,-8006.16,-4867.69,1279.75,-7830.19,-11751,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',14,6,12,-8097.52,13307.4,11400,-8227.92,12804,11538.9,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',15,6,13,2554.3,-3096.25,2131.77,2497.21,-12380.2,-3924.13,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',16,4,0,-4032.87,2173.04,7040.03,-4799.97,2050.26,7806.69,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',17,4,1,-11391,4478.89,4352.03,2559,4352.66,5119.97,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',18,4,2,-2304.53,-3198.61,-511.969,-6527.5,-2433.03,255.969,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',19,4,3,-3391.97,-7807.48,-4480.39,-1792.03,-6785.02,-4606.59,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',20,4,4,-2053.33,-9666.87,-4928.03,-2171.93,-10303.6,-11751,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',21,7,0,255.136,-255.969,6016.69,0.380003,511.935,6783.97,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',22,7,1,-9087.2,-255.401,6016.03,-8833.11,511.218,6783.97,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',23,8,0,-11389.8,4226.02,4352.03,-10624,4265.6,5119.65,0,0,0,1,250),
+('surf_ag_texture_final','Start 0','None','player',24,8,1,2558.38,4352.9,4352.03,1792.03,4407.83,5117.17,0,0,0,1,250);

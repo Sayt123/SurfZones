@@ -1,0 +1,26 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_enlightened';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_enlightened','Start 0','None','player',0,1,0,13696.4,-10559.7,7776.03,13980.7,-9042.32,7889.05,0,0,0,1,250),
+('surf_enlightened','Start 0','None','player',1,4,0,-3709.41,-8928.2,5247.97,-3690.15,-10720,961.418,0,0,0,1,250),
+('surf_enlightened','Start 0','None','player',2,4,1,-190.949,-8834.34,-703.969,381.93,-10813,-128.031,0,0,0,1,250),
+('surf_enlightened','Start 0','None','player',3,4,2,-1728.03,-9402.75,-7362.97,-1663.97,-10246.3,-6396.78,0,0,0,1,250),
+('surf_enlightened','Start 0','None','player',4,2,0,-13280.1,-11391.9,-11376,-13929,-8256.03,-9412.25,0,0,0,1,250),
+('surf_enlightened','Bonus 1','b1_endzone','player',5,2,1,-11393,10463,8927,-8319,11841,9217,0,0,1,1,350),
+('surf_enlightened','Bonus 1','b1_startzone','player',6,1,1,-10241,8255,9791,-9471,8961,10305,0,0,1,1,350),
+('surf_enlightened','bonus 2','None','player',7,1,0,-5008.21,2016.25,-15244,-5263.82,2271.9,-15344,0,0,2,1,250),
+('surf_enlightened','bonus 2','None','player',8,2,0,-6896.1,7040.05,-13695.8,-7018.57,8807.67,-13473.9,0,0,2,1,250),
+('surf_enlightened','bonus 3','None','player',9,1,0,-2336.39,-5398.19,15296,-4384.97,-5247.97,15457,0,0,3,1,250),
+('surf_enlightened','bonus 3','None','player',10,2,0,-2368.07,-14704.1,11760,-4350.39,-15342.9,12544,0,0,3,1,250),
+('surf_enlightened','bonus 4','None','player',11,1,0,14400.1,13984.7,13072,14784,14367.5,13208.6,0,0,4,1,250),
+('surf_enlightened','bonus 4','None','player',12,2,0,4671.8,1951.71,14544,4288.1,1706.87,14848,0,0,4,1,250),
+('surf_enlightened','bonus 5','None','player',13,1,0,-14992.2,9631.97,2320.09,-15503.4,9120.03,2384.56,0,0,5,1,250),
+('surf_enlightened','bonus 5','None','player',14,2,0,-12656.1,10768,1487.92,-12208.9,9745.24,1711.97,0,0,5,1,250),
+('surf_enlightened','bonus 6','None','player',15,1,0,3055.88,3087.53,-1615.97,2544.03,2064.87,-1474.54,0,0,6,1,250),
+('surf_enlightened','bonus 6','None','player',16,2,0,15792,7791.77,-2319.96,14288.9,7281.33,-1808.03,0,0,6,1,250),
+('surf_enlightened','bonus 6','None','player',17,2,1,14288.1,-2639.93,-2319.97,15790.5,-2129.08,-1808.03,0,0,6,1,250),
+('surf_enlightened','bonus 7','None','player',18,1,0,-10176.1,13216.2,14752,-11199.8,13759.8,14752,0,0,7,1,250),
+('surf_enlightened','bonus 7','None','player',19,2,0,-9279.47,12160.1,13888,-6721.64,13214.3,15648,0,0,7,1,250),
+('surf_enlightened','bonus 7','None','player',20,2,1,-14655.6,12160.2,13888,-12096.2,13214.8,15648,0,0,7,1,250),
+('surf_enlightened','bonus 8','None','player',21,1,0,-15296.1,12640.1,-3327.97,-16192,15456.3,-3131.85,0,0,8,1,250),
+('surf_enlightened','bonus 8','None','player',22,2,0,-15296.5,13664.5,-4415.97,-16192,14431,-3970.99,0,0,8,1,250);

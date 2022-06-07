@@ -1,0 +1,26 @@
+DELETE FROM `ck_zones` WHERE mapname = 'surf_illumination2';
+
+INSERT INTO `ck_zones` (`mapname`,`zonename`,`hookname`,`targetname`,`zoneid`,`zonetype`,`zonetypeid`,`pointa_x`,`pointa_y`,`pointa_z`,`pointb_x`,`pointb_y`,`pointb_z`,`vis`,`team`,`zonegroup`,`onejumplimit`,`prespeed`) VALUES 
+('surf_illumination2','Start 0','None','player',0,1,0,2880.34,6687.97,15360.7,3678.61,5601.41,15776,0,0,0,0,260),
+('surf_illumination2','Start 0','None','player',1,3,0,-15956.1,12682.5,16160,-15113.1,13952,15620.7,0,0,0,0,260),
+('surf_illumination2','Start 0','None','player',2,3,1,-2086.81,7804.49,-983.969,-4055.62,6535.81,-1253.97,0,0,0,0,260),
+('surf_illumination2','Start 0','None','player',3,3,2,-14519.5,13824,-801.947,-16079.7,12800,-1146.13,0,0,0,0,260),
+('surf_illumination2','Start 0','None','player',4,3,3,-6686.69,2051.35,-192.031,-7451.74,3101.66,-543.969,0,0,0,0,260),
+('surf_illumination2','Start 0','None','player',5,3,4,-15648,932.322,15129.8,-15143.1,2221.24,14912,0,0,0,0,260),
+('surf_illumination2','Start 0','None','player',6,2,0,9279.64,2075.88,12576,7809.95,996.307,12192,0,0,0,0,260),
+('surf_illumination2','Start 0','None','player',7,2,1,7681,1950.5,12192,9179.97,1115.65,12564.9,0,0,0,0,260),
+('surf_illumination2','Start 0','None','player',8,2,2,7734.62,1070.18,12192,7796.19,2005.05,12592,0,0,0,0,260),
+('surf_illumination2','Start 0','None','player',9,2,3,7769.88,1031.17,12192,7897.92,2038.62,12592,0,0,0,0,260),
+('surf_illumination2','BONUS 1','None','player',10,1,0,3488.03,-13562.8,13503.5,4698.78,-11010.4,13120,0,0,1,0,260),
+('surf_illumination2','BONUS 1','None','player',11,2,0,15068,-11654.6,8736.03,14438,-12921.7,9536.03,0,0,1,0,260),
+('surf_illumination2','BONUS 2','None','player',12,1,0,14657.7,-7682.04,-4335.13,15339.1,-8697.26,-3894.41,0,0,2,0,260),
+('surf_illumination2','BONUS 2','None','player',13,2,0,-10718.2,-8729.65,-2431.97,-10178.7,-7655.58,-2031.97,0,0,2,0,260),
+('surf_illumination2','Start 0','None','player',14,8,0,13285.9,-8882.71,-4852.03,14941.1,-8709.55,-3791.97,0,0,0,0,260),
+('surf_illumination2','Start 0','None','player',15,8,1,13280.1,-7488.03,-4943.89,14940.6,-7675.08,-3891.97,0,0,0,0,260),
+('surf_illumination2','BONUS 2','None','player',16,2,1,-10049.5,-8604.95,-2431.97,-10742.9,-7779.29,-2031.97,0,0,2,0,260),
+('surf_illumination2','BONUS 2','None','player',17,2,2,-10107.7,-8661.26,-2431.97,-10276.8,-7719.35,-2031.97,0,0,2,0,260),
+('surf_illumination2','BONUS 2','None','player',18,2,3,-10139.9,-7688.74,-2431.97,-10317.3,-8696.53,-2031.97,0,0,2,0,260),
+('surf_illumination2','BONUS 3','None','player',19,1,0,-10048,-5728.03,9040.03,-10528,-6559.97,8960.03,0,0,3,0,260),
+('surf_illumination2','BONUS 3','None','player',20,2,0,6015.97,-5602.23,4767.51,5250.16,-6682.46,4384.03,0,0,3,0,260),
+('surf_illumination2','BONUS 3','None','player',21,2,1,5122.69,-5730.65,4384.03,5984.65,-6560.05,4784.03,0,0,3,0,260),
+('surf_illumination2','BONUS 3','None','player',22,2,2,5185.19,-5664.98,4384.03,5865.91,-6620.63,4784.03,0,0,3,0,260);
