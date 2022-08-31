@@ -9,7 +9,10 @@ Provided is a CSV file to compare MD5 hash and filesize against my personal map 
 ## To use:
 If using PHPmyadmin or some means of dragging and dropping the two sql files then do that, otherwise add them to your database however you normally would add these.
 
-Files are now availabe 3 ways!
+Files are now availabe 4 ways!
+- Safely mergeable files are finally here! **PLEASE** note the differences between versions below.
+	- **Credits Merge (Option 1)** Is intended to support  [Kristián Partl's Web Stats](https://github.com/surftimer/SurfTimer-Web-Stats) which contain a stages and bonus table in ck_maptier.
+	- **Credits Merge (Option 2)** Is intended as an upgrade path from the base [SurfTimer release 1.1.1](https://github.com/surftimer/SurfTimer/releases/tag/1.1.1)
 - Individual files sorted Alphabetically to pick from.
 - Individual files sorted by difficulty Tier to pick from.
 - Full wipe files, which DESTRUCTIVELY replace your table with the complete list of maps.
