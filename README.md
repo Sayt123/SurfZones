@@ -12,7 +12,7 @@ If using PHPmyadmin or some means of dragging and dropping the two sql files the
 Files are now availabe 4 ways!
 - Safely mergeable files are finally here! **PLEASE** note the differences between versions below. This option will add credits JUST for maps you have in your existing ck_maptier.
 	- **Credits Merge (Option 1)** Is intended to support  [Kristián Partl's Web Stats](https://github.com/surftimer/SurfTimer-Web-Stats) which contain a stages and bonus table in ck_maptier.
-	- **Credits Merge (Option 2)** Is intended as an upgrade path from the base [SurfTimer release 1.1.1](https://github.com/surftimer/SurfTimer/releases/tag/1.1.1)
+	- **Credits Merge (Option 2)** Is intended as an upgrade path from the base [SurfTimer release 1.1.2](https://github.com/surftimer/SurfTimer/releases/tag/1.1.2)
 - Individual files sorted Alphabetically to pick from.
 - Individual files sorted by difficulty Tier to pick from.
 - Full wipe files, which DESTRUCTIVELY replace your table with the complete list of maps.
