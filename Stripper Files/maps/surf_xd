@@ -1,0 +1,39 @@
+modify:
+{
+	match:
+	{
+		"target" "Spawn"
+	}
+	
+	insert:
+	{
+		"UseLandmarkAngles" "1"
+		"OnStartTouch" "!activatorRunScriptCodeself.SetVelocity(Vector(0,0,0));0-1"
+	}
+}
+
+modify:
+{
+	match:
+	{
+		"target" "Spawn2"
+	}
+	
+	insert:
+	{
+		"UseLandmarkAngles" "1"
+	}
+}
+
+modify:
+{
+	match:
+	{
+		"target" "BStart"
+	}
+	
+	insert:
+	{
+		"UseLandmarkAngles" "1"
+	}
+}
