@@ -453,6 +453,8 @@ INSERT INTO `ck_zones` (`mapname`, `zoneid`, `zonetype`, `zonetypeid`, `pointa_x
 ('surf_ag_texture_final', 23, 8, 0, -11389.8, 4226.02, 4352.03, -10624, 4265.6, 5119.65, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_agony_go', 0, 1, 1, -254.675, -5633.33, 4224.03, 254.171, -6064.6, 4316, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_agony_go', 1, 2, 0, 10881.3, 1824.42, -7671.86, 11648.2, 5023.97, -7642.13, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
+('surf_agony_go', 0, 1, 0, -257, -5969, 4223, 257, -5631, 4481, 0, 0, 0, 'Start 0', 'zone_start', 'player', 1, 250),
+('surf_agony_go', 1, 2, 0, 10623, 1919, -7649, 11905, 2497, -7135, 0, 0, 0, 'Start 0', 'zone_end', 'player', 1, 250),
 ('surf_aircontrol_dark', 7, 4, 5, -9408.03, -7915.5, -2695.37, -8776.06, -10639.6, -108.925, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_aircontrol_dark', 6, 4, 4, 2816.03, -10463.9, 991.635, 2687.97, -7955.33, 3307.88, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
 ('surf_aircontrol_dark', 5, 4, 3, 2880.03, 7103.94, 5375.66, 2826.58, 11264, 9983.71, 0, 0, 0, 'Start 0', 'None', 'player', 1, 250),
