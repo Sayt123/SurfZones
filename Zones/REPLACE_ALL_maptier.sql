@@ -46,6 +46,7 @@ INSERT INTO `ck_maptier` (`mapname`, `tier`, `maxvelocity`, `announcerecord`, `g
 ('surf_aether_csgo', 2, 3500, 1, 1, 1, 'Scaz.zaf'),
 ('surf_again_njv', 5, 3500, 1, 1, 1, 'Ch1!!3r'),
 ('surf_ag_texture_final', 2, 3500, 1, 1, 1, 'SmOoth'),
+('surf_agony_go', 2, 3500, 0, 1, 1, 'Proxychains'),
 ('surf_aircontrol_dark', 2, 3500, 1, 1, 1, 'N/A'),
 ('surf_aircontrol_ksf', 1, 3500, 1, 1, 1, 'SnoopSh'),
 ('surf_airflow', 4, 3500, 1, 1, 1, 'Enjooi'),
