@@ -1,4 +1,6 @@
 # Project Description
+⚠️ **Project is currently no longer maintained due to the CS2 release** ⚠️
+
 Large archival project of sorts to zone more or less all available CSGO Skillsurf maps for use with [Surftimer-Official](https://github.com/surftimer/SurfTimer). This is a personal project but I felt it would be worth sharing publically. The ultimate end goal of the project is to have personally touched, and tested, all maps listed and to provide mapper credits wherever possible for archival.
 
 Stripper files are based off of [Kyle3Boi's configs for Demented Gaming](https://github.com/Kyli3Boi/Surftimer-Official-Stripper-Config) and as I learn more about stripper I'll be adding my own configs or any donated.
